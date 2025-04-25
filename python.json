@@ -1,0 +1,1229 @@
+[
+   
+    {
+      "question": "Which of the following is not a valid Python data type?",
+      "options": ["List", "Tuple", "Set", "Character"],
+      "answer": "d"
+    },
+    {
+      "question": "What is the result of the following expression? \"Hello\" * 3",
+      "options": ["HelloHelloHello", "Hello3", "Hello", "15"],
+      "answer": "a"
+    },
+    {
+      "question": "What does the len() function do in Python?",
+      "options": [
+        "Counts the number of characters in a string",
+        "Returns the length of a list or string",
+        "Determines the size of a variable",
+        "Returns the last element of a sequence"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What is the output of the following code? a = [1, 2, 3, 4]; b = a; b[0] = 5; print(a)",
+      "options": ["[5, 2, 3, 4]", "[1, 2, 3, 4]", "[5, 1, 2, 3]", "Error"],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is an immutable data type in Python?",
+      "options": ["List", "Set", "Dictionary", "Tuple"],
+      "answer": "d"
+    },
+    {
+      "question": "What will the expression 5 ** 2 evaluate to in Python?",
+      "options": ["25", "10", "5", "Error"],
+      "answer": "a"
+    },
+    {
+      "question": "What will be the output of the following expression? 10 / 3",
+      "options": ["3", "3.3333333", "3.0", "Error"],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following operators can be used to check object identity in Python?",
+      "options": ["==", "!=", "is", "not"],
+      "answer": "c"
+    },
+    {
+      "question": "What is the result of 2 + 3 * 4 in Python?",
+      "options": ["20", "14", "10", "24"],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following will return a boolean value?",
+      "options": ["==", "+", "*", "/"],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is used to handle multiple conditions in Python?",
+      "options": ["if", "elif", "switch", "else"],
+      "answer": "b"
+    },
+    {
+      "question": "What will be the output of the following code? x = 3; if x == 2: print(\"Equal\") elif x > 2: print(\"Greater\") else: print(\"Less\")",
+      "options": ["Equal", "Greater", "Less", "Error"],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is correct?",
+      "options": ["if x = 10:", "if x == 10:", "if x equals 10:", "if x is 10:"],
+      "answer": "b"
+    },
+    {
+      "question": "What is the output of the following code? x = 5; if x != 10: print(\"Not 10\")",
+      "options": ["10", "Not 10", "Error", "None"],
+      "answer": "b"
+    },
+    {
+      "question": "What is the purpose of the else block in Python?",
+      "options": [
+        "Executes if no condition is true",
+        "Executes if the first condition is true",
+        "Executes when an exception occurs",
+        "None of the above"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What will the following code print? for i in range(3, 8, 2): print(i)",
+      "options": ["3 5 7", "3 4 5 6 7", "3 4 5", "Error"],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following statements is used to exit a loop prematurely?",
+      "options": ["break", "exit", "continue", "end"],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is used to skip the current iteration of a loop?",
+      "options": ["stop", "break", "continue", "exit"],
+      "answer": "c"
+    },
+    {
+      "question": "What is the output of the following code? i = 1; while i < 4: print(i); i += 1",
+      "options": ["1 2 3", "1 2 3 4", "1 2", "Error"],
+      "answer": "a"
+    },
+    {
+      "question": "Which keyword is used to start a for loop in Python?",
+      "options": ["loop", "foreach", "for", "iterate"],
+      "answer": "c"
+    },
+    {
+      "question": "Which of the following is the correct way to define a function in Python?",
+      "options": [
+        "function myfunc():",
+        "def myfunc():",
+        "func myfunc():",
+        "function = myfunc()"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What is the purpose of the return keyword in Python functions?",
+      "options": [
+        "To call another function",
+        "To specify the output of the function",
+        "To exit the function",
+        "None of the above"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is used to define a function with multiple parameters in Python?",
+      "options": [
+        "def func(x, y):",
+        "def func(x and y):",
+        "def func(x or y):",
+        "function func(x, y):"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What is the output of the following code? def add(x, y): return x + y; print(add(3, 4))",
+      "options": ["7", "34", "3 4", "None"],
+      "answer": "a"
+    },
+    {
+      "question": "What will happen if you call a function without providing the required arguments in Python?",
+      "options": [
+        "The function will execute with default values",
+        "An error will be raised",
+        "It will return None",
+        "It will skip the function call"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What will be the result of the following code? x = input(\"Enter your name: \"); print(f\"Hello {x}\")",
+      "options": [
+        "Hello {x}",
+        "Hello <input value>",
+        "Hello \"Enter your name: \"",
+        "None"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Which function is used to open a file for writing in Python?",
+      "options": ["open()", "read()", "write()", "open(\"w\")"],
+      "answer": "d"
+    },
+    {
+      "question": "What is the output of the following code? file = open(\"test.txt\", \"w\"); file.write(\"Python is fun!\"); file.close(); file = open(\"test.txt\", \"r\"); print(file.read())",
+      "options": ["Python is fun!", "test.txt", "Error", "None"],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is used to read a line from a file in Python?",
+      "options": ["read()", "readline()", "input()", "readlines()"],
+      "answer": "b"
+    },
+    {
+      "question": "How do you append text to a file in Python?",
+      "options": [
+        "open('file.txt', 'w')",
+        "open('file.txt', 'a')",
+        "write('file.txt', 'a')",
+        "write('file.txt', 'w')"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What does the try-except block help with in Python?",
+      "options": ["Looping", "Error handling", "Function calling", "Variable declaration"],
+      "answer": "b"
+    },
+    {
+      "question": "Which keyword is used to raise an exception manually?",
+      "options": ["raise", "throw", "except", "try"],
+      "answer": "a"
+    },
+    {
+      "question": "What will be the output of: try: x = 1/0 except ZeroDivisionError: print(\"Error\")",
+      "options": ["0", "1", "Error", "None"],
+      "answer": "c"
+    },
+    {
+      "question": "What happens if no exception occurs in the try block?",
+      "options": ["except block is executed", "try block is skipped", "try block is executed", "Error occurs"],
+      "answer": "c"
+    },
+    {
+      "question": "Which keyword is used to define a class in Python?",
+      "options": ["def", "class", "object", "type"],
+      "answer": "b"
+    },
+    {
+      "question": "Which keyword is used to create an object of a class?",
+      "options": ["class", "object", "self", "constructor"],
+      "answer": "d"
+    },
+    {
+      "question": "What is the special method used to initialize objects in a class?",
+      "options": ["__init__", "constructor", "start", "init"],
+      "answer": "a"
+    },
+    {
+      "question": "What will the following code do? class Test: pass",
+      "options": ["Creates a class with no attributes", "Gives error", "Creates a loop", "Creates a string"],
+      "answer": "a"
+    },
+    {
+      "question": "What is the output of: class A: def __init__(self): self.name = \"Python\"; obj = A(); print(obj.name)",
+      "options": ["Python", "Error", "self", "None"],
+      "answer": "a"
+    },
+    {
+      "question": "What is 'self' in Python class methods?",
+      "options": ["A variable", "An object reference", "A function", "A loop"],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is a correct way to comment a single line in Python?",
+      "options": ["// comment", "/* comment */", "# comment", ""],
+      "answer": "c"
+    },
+    {
+      "question": "Which operator is used for exponentiation?",
+      "options": ["^", "**", "//", "%%"],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is a valid variable name in Python?",
+      "options": ["1var", "_var", "var-name", "var name"],
+      "answer": "b"
+    },
+    {
+      "question": "What is the result of bool(0)?",
+      "options": ["True", "False", "0", "None"],
+      "answer": "b"
+    },
+    {
+      "question": "Which of these data types is unordered?",
+      "options": ["List", "Tuple", "Set", "String"],
+      "answer": "c"
+    },
+    {
+      "question": "What does list.append(5) do?",
+      "options": ["Adds 5 to the start", "Adds 5 to the end", "Adds 5 to index 5", "Deletes 5"],
+      "answer": "b"
+    },
+    {
+      "question": "What is the output of: print(type([]))",
+      "options": ["<class 'list'>", "<type 'list'>", "list", "[]"],
+      "answer": "a"
+    },
+    {
+      "question": "Which function returns the largest value from a list?",
+      "options": ["max()", "high()", "top()", "big()"],
+      "answer": "a"
+    },
+    {
+      "question": "What does the pop() method do?",
+      "options": ["Adds item", "Deletes first item", "Deletes last item", "Reverses list"],
+      "answer": "c"
+    },
+    {
+      "question": "Which of the following loops guarantees execution at least once?",
+      "options": ["for", "while", "do-while (not in Python)", "None"],
+      "answer": "c"
+    },
+    {
+      "question": "What does the keyword 'pass' do?",
+      "options": ["Skips execution", "Ends the program", "Raises error", "Does nothing"],
+      "answer": "d"
+    },
+    {
+      "question": "Which symbol is used for indentation in Python?",
+      "options": ["{}", "()", ":", "whitespace"],
+      "answer": "d"
+    },
+    {
+      "question": "What is the result of 9 // 2?",
+      "options": ["4.5", "5", "4", "Error"],
+      "answer": "b"
+    },
+    {
+      "question": "Which function is used to convert a string to an integer?",
+      "options": ["int()", "str()", "float()", "eval()"],
+      "answer": "a"
+    },
+    {
+      "question": "Which method is used to find the index of a value in a list?",
+      "options": ["index()", "find()", "search()", "locate()"],
+      "answer": "a"
+    },
+    {
+      "question": "What is the correct file extension for Python files?",
+      "options": [".py", ".python", ".pt", ".p"],
+      "answer": "a"
+    },
+    {
+      "question": "Which built-in function is used to get user input?",
+      "options": ["get()", "input()", "scan()", "read()"],
+      "answer": "b"
+    },
+    {
+      "question": "Which module in Python is used to generate random numbers?",
+      "options": ["math", "random", "os", "time"],
+      "answer": "b"
+    },
+    {
+      "question": "Which function can be used to sort a list?",
+      "options": ["sort()", "arrange()", "order()", "lineup()"],
+      "answer": "a"
+    },
+    {
+      "question": "What will be the output of len(\"Python\")?",
+      "options": ["6", "7", "5", "Error"],
+      "answer": "a"
+    },
+    {
+      "question": "What will be the output of: print('Hello' + 'World')?",
+      "options": ["Hello World", "HelloWorld", "Hello+World", "Error"],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is a mutable data type?",
+      "options": ["Tuple", "String", "List", "Integer"],
+      "answer": "c"
+    },
+    {
+      "question": "Which of the following is used to define a function in Python?",
+      "options": ["function", "fun", "define", "def"],
+      "answer": "d"
+    },
+    {
+      "question": "Which function is used to convert a number to a string?",
+      "options": ["int()", "str()", "float()", "chr()"],
+      "answer": "b"
+    },
+    {
+      "question": "How do you start a comment in Python?",
+      "options": ["//", "#", "/*", "--"],
+      "answer": "b"
+    },
+    {
+      "question": "What will be the output of: print(10 % 3)?",
+      "options": ["3", "1", "0", "10"],
+      "answer": "b"
+    },
+    {
+      "question": "Which method returns the number of items in a list?",
+      "options": ["length()", "count()", "len()", "size()"],
+      "answer": "c"
+    },
+    {
+      "question": "Which data type is used to store True/False values?",
+      "options": ["int", "str", "bool", "char"],
+      "answer": "c"
+    },
+    {
+      "question": "Which loop is best used when the number of iterations is known?",
+      "options": ["while", "for", "do-while", "loop"],
+      "answer": "b"
+    },
+    {
+      "question": "What will the range(5) generate?",
+      "options": ["0 to 4", "1 to 5", "0 to 5", "1 to 4"],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is used to open a file in Python?",
+      "options": ["open()", "file()", "read()", "with()"],
+      "answer": "a"
+    },
+    {
+      "question": "What does the 'break' statement do?",
+      "options": ["Exits the loop", "Skips iteration", "Restarts loop", "Continues next loop"],
+      "answer": "a"
+    },
+    {
+      "question": "What does the 'continue' statement do?",
+      "options": ["Ends the loop", "Skips rest of the current iteration", "Goes to start of program", "Stops program"],
+      "answer": "b"
+    },
+    {
+      "question": "What is the result of: 2 ** 3?",
+      "options": ["6", "8", "9", "4"],
+      "answer": "b"
+    },
+    {
+      "question": "Which operator checks if two values are equal?",
+      "options": ["=", "==", "!=", "<>"],
+      "answer": "b"
+    },
+    {
+      "question": "Which function is used to find the length of a string?",
+      "options": ["size()", "count()", "length()", "len()"],
+      "answer": "d"
+    },
+    {
+      "question": "How do you define a class in Python?",
+      "options": ["function Class", "define class", "class ClassName:", "class = ClassName"],
+      "answer": "c"
+    },
+    {
+      "question": "What is the correct syntax for a for loop?",
+      "options": ["for x in y:", "for (x in y)", "foreach x in y:", "loop x y"],
+      "answer": "a"
+    },
+    {
+      "question": "Which built-in function returns the absolute value?",
+      "options": ["abs()", "absolute()", "fabs()", "pos()"],
+      "answer": "a"
+    },
+    {
+      "question": "Which keyword is used to return a value from a function?",
+      "options": ["yield", "return", "output", "send"],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is not a core data type?",
+      "options": ["List", "Dictionary", "Tuple", "Class"],
+      "answer": "d"
+    },
+    {
+      "question": "What is the output of: print(bool(''))?",
+      "options": ["True", "False", "None", "Error"],
+      "answer": "b"
+    },
+    {
+      "question": "Which operator is used to check membership?",
+      "options": ["in", "has", "==", "is"],
+      "answer": "a"
+    },
+    {
+      "question": "What is the default return value of a function if not specified?",
+      "options": ["0", "None", "True", "False"],
+      "answer": "b"
+    },
+    {
+      "question": "What does the strip() function do to a string?",
+      "options": ["Removes whitespace", "Adds whitespace", "Capitalizes", "Reverses"],
+      "answer": "a"
+    },
+    {
+      "question": "What will be the output of: 'Python'.upper()?",
+      "options": ["PYTHON", "python", "Python", "Error"],
+      "answer": "a"
+    },
+    {
+      "question": "What does the 'finally' block do in try-except?",
+      "options": ["Executes if error occurs", "Skips errors", "Always executes", "Only executes if no error"],
+      "answer": "c"
+    },
+    {
+      "question": "What does open('file.txt', 'r') do?",
+      "options": ["Opens file to write", "Reads file", "Deletes file", "Creates file"],
+      "answer": "b"
+    },
+    {
+      "question": "How do you write a multi-line string?",
+      "options": ["'text'", "\"text\"", "'''text'''", "#text"],
+      "answer": "c"
+    },
+    {
+      "question": "What is the purpose of __name__ == '__main__'?",
+      "options": ["To run modules", "To define a class", "To check script entry point", "To import modules"],
+      "answer": "c"
+    },
+    {
+      "question": "Which method is used to remove all items from a list?",
+      "options": ["clear()", "remove()", "del()", "pop()"],
+      "answer": "a"
+    },
+    {
+      "question": "Which keyword is used to inherit a class?",
+      "options": ["inherits", "extends", "class", "super"],
+      "answer": "c"
+    },
+    {
+      "question": "What is the correct way to write a dictionary?",
+      "options": ["{ 'a' => 1 }", "{ 'a': 1 }", "[ 'a': 1 ]", "( 'a' = 1 )"],
+      "answer": "b"
+    },
+    {
+      "question": "How do you check the type of a variable?",
+      "options": ["typeof()", "type()", "checktype()", "varType()"],
+      "answer": "b"
+    },
+    {
+      "question": "What is the keyword to define a constructor in a class?",
+      "options": ["init()", "__init__()", "constructor()", "def init()"],
+      "answer": "b"
+    },
+    {
+      "question": "Which method removes a specified item from a list?",
+      "options": ["delete()", "remove()", "pop()", "cut()"],
+      "answer": "b"
+    },
+    {
+      "question": "Which keyword is used for creating a generator in Python?",
+      "options": ["def", "yield", "return", "generate"],
+      "answer": "b"
+    },
+    {
+      "question": "Which of these is not a Python keyword?",
+      "options": ["assert", "eval", "nonlocal", "pass"],
+      "answer": "b"
+    },
+    {
+      "question": "Which function is used to get the current date and time?",
+      "options": ["datetime.now()", "time()", "now()", "date()"],
+      "answer": "a"
+    },
+    {
+      "question": "Which method is used to find the maximum value in a list?",
+      "options": ["largest()", "max()", "maximum()", "top()"],
+      "answer": "b"
+    },
+    {
+      "question": "What does the update() method do in a dictionary?",
+      "options": ["Updates a key", "Merges another dictionary", "Deletes key", "Sorts dictionary"],
+      "answer": "b"
+    },
+    {
+      "question": "Which of these is a valid way to start a for loop?",
+      "options": ["for x = 5", "for x in range(5):", "for (x in 5)", "foreach x in range(5)"],
+      "answer": "b"
+    },
+    {
+      "question": "Which function reads all lines of a file?",
+      "options": ["readall()", "readlines()", "read()", "getlines()"],
+      "answer": "b"
+    },
+    {
+      "question": "How do you handle multiple exceptions?",
+      "options": ["Multiple try blocks", "Single except block", "Multiple except blocks", "Nested try"],
+      "answer": "c"
+    },
+    {
+      "question": "Which keyword creates an anonymous function?",
+      "options": ["def", "lambda", "anon", "func"],
+      "answer": "b"
+    },
+    {
+      "question": "Which function creates an iterable from two lists?",
+      "options": ["zip()", "combine()", "map()", "chain()"],
+      "answer": "a"
+    },
+    {
+      "question": "Which keyword is used to define a module?",
+      "options": ["module", "def", "import", "package"],
+      "answer": "c"
+    },
+    {
+      "question": "What is the scope of a variable defined inside a function?",
+      "options": ["Global", "Function", "Module", "Class"],
+      "answer": "b"
+    },
+    {
+      "question": "Which function returns a list of all attributes of an object?",
+      "options": ["dir()", "vars()", "attributes()", "get()"],
+      "answer": "a"
+    },
+    {
+      "question": "What is recursion?",
+      "options": ["Looping a list", "Function calling itself", "Function calling another function", "Nested loop"],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following creates a tuple?",
+      "options": ["(1, 2)", "[1, 2]", "{1, 2}", "tuple[1, 2]"],
+      "answer": "a"
+    },
+    {
+      "question": "How do you merge two sets?",
+      "options": ["set1.add(set2)", "set1.merge(set2)", "set1.union(set2)", "set1 + set2"],
+      "answer": "c"
+    },
+    {
+      "question": "What is slicing used for?",
+      "options": ["Copying lists", "Accessing range of items", "Deleting elements", "Converting data type"],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following will throw an error?",
+      "options": ["len('Python')", "'Python'[0]", "'Python' + 5", "type(5)"],
+      "answer": "c"
+    },
+    {
+      "question": "What will 'Hello' * 2 return?",
+      "options": ["HelloHello", "Hello2", "Error", "2Hello"],
+      "answer": "a"
+    },
+    {
+      "question": "Which symbol is used for single-line comments?",
+      "options": ["//", "#", "--", "/*"],
+      "answer": "b"
+    },
+    {
+      "question": "How do you check if a file exists in Python?",
+      "options": ["os.exists()", "file.exist()", "os.path.exists()", "exists()"],
+      "answer": "c"
+    },
+    {
+      "question": "Which loop runs indefinitely if condition is always true?",
+      "options": ["for", "while", "do-while", "None"],
+      "answer": "b"
+    },
+    {
+      "question": "Which function returns the ASCII value of a character?",
+      "options": ["ord()", "chr()", "ascii()", "asc()"],
+      "answer": "a"
+    },
+    {
+      "question": "Which function returns character for a given ASCII value?",
+      "options": ["ord()", "char()", "chr()", "ascii()"],
+      "answer": "c"
+    },
+    {
+      "question": "What does isinstance(x, int) check?",
+      "options": ["If x is defined", "If x is an int", "If x has a value", "If x is in memory"],
+      "answer": "b"
+    },
+    {
+      "question": "Which of these is not a loop control statement?",
+      "options": ["continue", "return", "pass", "end"],
+      "answer": "d"
+    },
+    {
+      "question": "What is the correct syntax to open a file for writing?",
+      "options": ["open('file.txt')", "open('file.txt', 'w')", "write('file.txt')", "file('file.txt', 'write')"],
+      "answer": "b"
+    },
+    {
+      "question": "What does 'not' do in a condition?",
+      "options": ["Inverts the condition", "Skips it", "Repeats it", "Ignores it"],
+      "answer": "a"
+    },
+    {
+      "question": "Which built-in module is used for regular expressions?",
+      "options": ["re", "regex", "search", "exp"],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is used to define private attributes in a class?",
+      "options": ["_attr", "__attr", "attr", "priv attr"],
+      "answer": "b"
+    },
+    {
+      "question": "Which statement is used to check multiple conditions?",
+      "options": ["if", "if-else", "elif", "while"],
+      "answer": "c"
+    },
+    {
+      "question": "What is the output of: print(2 != 3)?",
+      "options": ["False", "True", "Error", "None"],
+      "answer": "b"
+    },
+    {
+      "question": "What keyword is used to define a constant value?",
+      "options": ["const", "define", "None", "Python doesn't have constants"],
+      "answer": "d"
+    },[
+      {
+        "question": "What will be the output of the following code?\n\n```python\nx = [1, 2, 3]\nprint(x[1:3])\n```",
+        "options": ["[2, 3]", "[1, 2]", "[1, 2, 3]", "Error"],
+        "answer": "[2, 3]"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint((lambda x: x * 2)(3))\n```",
+        "options": ["6", "3", "Error", "None"],
+        "answer": "6"
+      },
+      {
+        "question": "Which of the following creates a set with one item?",
+        "options": ["{1}", "[1]", "(1)", "set(1)"],
+        "answer": "{1}"
+      },
+      {
+        "question": "What will this list comprehension return?\n\n```python\n[i for i in range(5) if i % 2 == 0]\n```",
+        "options": ["[0, 2, 4]", "[1, 3]", "[2, 4]", "[0, 1, 2, 3, 4]"],
+        "answer": "[0, 2, 4]"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint({i: i*i for i in range(3)})\n```",
+        "options": ["{0: 0, 1: 1, 2: 4}", "{0: 0, 1: 1}", "{1: 1, 2: 4}", "Error"],
+        "answer": "{0: 0, 1: 1, 2: 4}"
+      },
+      {
+        "question": "What does the following return?\n\n```python\nsum([i for i in range(4)])\n```",
+        "options": ["6", "10", "4", "0"],
+        "answer": "6"
+      },
+      {
+        "question": "What is the result of the following?\n\n```python\nprint('5' + '5')\n```",
+        "options": ["55", "10", "5+5", "Error"],
+        "answer": "55"
+      },
+      {
+        "question": "Which of these is an immutable data type?",
+        "options": ["tuple", "list", "set", "dict"],
+        "answer": "tuple"
+      },
+      {
+        "question": "What does `map()` return in Python 3?",
+        "options": ["map object", "list", "set", "dict"],
+        "answer": "map object"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint(type(lambda x: x))\n```",
+        "options": ["<class 'function'>", "<class 'lambda'>", "<class 'object'>", "Error"],
+        "answer": "<class 'function'>"
+      },
+      {
+        "question": "What is printed?\n\n```python\nprint([i*i for i in range(3)])\n```",
+        "options": ["[0, 1, 4]", "[1, 4, 9]", "[0, 1, 2]", "Error"],
+        "answer": "[0, 1, 4]"
+      },
+      {
+        "question": "Which one of the following is valid?",
+        "options": ["lambda x, y: x+y", "lambda x, y x+y", "lambda: x+y", "lambda x y: x+y"],
+        "answer": "lambda x, y: x+y"
+      },
+      {
+        "question": "Choose the correct output.\n\n```python\nprint({x: x**2 for x in (1, 2, 3)})\n```",
+        "options": ["{1: 1, 2: 4, 3: 9}", "{1: 2, 2: 3, 3: 4}", "[1, 4, 9]", "Error"],
+        "answer": "{1: 1, 2: 4, 3: 9}"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint((lambda x: x + 10)(5))\n```",
+        "options": ["15", "5", "10", "Error"],
+        "answer": "15"
+      },
+      {
+        "question": "What is the result?\n\n```python\nprint(sorted({3, 1, 2}))\n```",
+        "options": ["[1, 2, 3]", "{1, 2, 3}", "(1, 2, 3)", "Error"],
+        "answer": "[1, 2, 3]"
+      },
+      {
+        "question": "Which of the following returns keys of a dictionary?",
+        "options": ["d.keys()", "d.values()", "d.items()", "d.get()"],
+        "answer": "d.keys()"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint(list(map(lambda x: x + 1, [1, 2, 3])))\n```",
+        "options": ["[2, 3, 4]", "[1, 2, 3]", "[1, 2]", "[2, 3]"],
+        "answer": "[2, 3, 4]"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint(list(filter(lambda x: x % 2 == 0, [1, 2, 3, 4])))\n```",
+        "options": ["[2, 4]", "[1, 3]", "[1, 2, 3, 4]", "[2]"],
+        "answer": "[2, 4]"
+      },
+      {
+        "question": "Which of these functions does NOT exist?",
+        "options": ["reduce", "filter", "map", "compact"],
+        "answer": "compact"
+      },
+      {
+        "question": "What will be the output?\n\n```python\nprint((lambda x, y: x if x > y else y)(4, 9))\n```",
+        "options": ["9", "4", "Error", "None"],
+        "answer": "9"
+      },
+      {
+        "question": "Which function converts list of pairs into a dictionary?",
+        "options": ["dict()", "list()", "set()", "map()"],
+        "answer": "dict()"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint((lambda x: x % 2 == 0)(4))\n```",
+        "options": ["True", "False", "Error", "None"],
+        "answer": "True"
+      },
+      {
+        "question": "What does this print?\n\n```python\nprint((lambda x: x)(10))\n```",
+        "options": ["10", "None", "lambda", "Error"],
+        "answer": "10"
+      },
+      {
+        "question": "What is the correct output?\n\n```python\nprint(type([]) == list)\n```",
+        "options": ["True", "False", "Error", "None"],
+        "answer": "True"
+      },
+      {
+        "question": "Which of the following is a valid key in a dictionary?",
+        "options": ["(1, 2)", "[]", "{1:2}", "set()"],
+        "answer": "(1, 2)"
+      },
+      {
+        "question": "What is printed?\n\n```python\nprint(type((1)))\n```",
+        "options": ["<class 'int'>", "<class 'tuple'>", "<class 'list'>", "Error"],
+        "answer": "<class 'int'>"
+      },
+      {
+        "question": "Which of the following creates a tuple?",
+        "options": ["(1,)", "(1)", "[1]", "tuple[1]"],
+        "answer": "(1,)"
+      },
+      {
+        "question": "Output?\n\n```python\nprint([x for x in range(3) if x != 1])\n```",
+        "options": ["[0, 2]", "[0, 1, 2]", "[1, 2]", "[1]"],
+        "answer": "[0, 2]"
+      },
+      {
+        "question": "Result of:\n\n```python\nprint(type({}))\n```",
+        "options": ["<class 'dict'>", "<class 'set'>", "<class 'list'>", "<class 'tuple'>"],
+        "answer": "<class 'dict'>"
+      },
+      {
+        "question": "Which is used to handle exceptions?",
+        "options": ["try-except", "if-else", "for-while", "assert"],
+        "answer": "try-except"
+      },
+      {
+        "question": "What will be the result?\n\n```python\nprint(bool([]))\n```",
+        "options": ["False", "True", "None", "Error"],
+        "answer": "False"
+      },
+      {
+        "question": "Which keyword is used to define a function?",
+        "options": ["def", "func", "define", "function"],
+        "answer": "def"
+      },
+      {
+        "question": "What is the output?\n\n```python\nx = [1, 2, 3]\nprint(x.pop())\n```",
+        "options": ["3", "1", "[1, 2]", "None"],
+        "answer": "3"
+      },
+      {
+        "question": "What does this code do?\n\n```python\ndef foo():\n    return\nprint(foo())\n```",
+        "options": ["None", "0", "Error", "''"],
+        "answer": "None"
+      },
+      {
+        "question": "Which of the following is a valid lambda function?",
+        "options": ["lambda x: x+1", "lambda(x): x+1", "lambda x x+1", "lambda: x+1"],
+        "answer": "lambda x: x+1"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint((lambda x: x * x)(4))\n```",
+        "options": ["16", "8", "4", "None"],
+        "answer": "16"
+      },
+      {
+        "question": "Choose the correct use of map:\n\n```python\nmap(str, [1, 2, 3])\n```",
+        "options": ["Returns a map object", "Returns [1, 2, 3]", "Returns a string", "Raises Error"],
+        "answer": "Returns a map object"
+      },
+      {
+        "question": "What will be the result?\n\n```python\nprint(len({1: 'a', 2: 'b'}))\n```",
+        "options": ["2", "1", "0", "Error"],
+        "answer": "2"
+      },
+      {
+        "question": "Which of the following is a dictionary?",
+        "options": ["{'a': 1}", "{1}", "['a', 1]", "(1, 2)"],
+        "answer": "{'a': 1}"
+      },
+      {
+        "question": "What will this print?\n\n```python\nprint({i for i in range(3)})\n```",
+        "options": ["{0, 1, 2}", "[0, 1, 2]", "(0, 1, 2)", "{0: 0, 1: 1, 2: 2}"],
+        "answer": "{0, 1, 2}"
+      },
+      {
+        "question": "What is the result of this filter function?\n\n```python\nlist(filter(lambda x: x > 1, [0, 1, 2, 3]))\n```",
+        "options": ["[2, 3]", "[1, 2, 3]", "[0, 1, 2, 3]", "[3]"],
+        "answer": "[2, 3]"
+      },
+      {
+        "question": "What is the type of this expression?\n\n```python\ntype((1,))\n```",
+        "options": ["<class 'tuple'>", "<class 'int'>", "<class 'list'>", "<class 'set'>"],
+        "answer": "<class 'tuple'>"
+      },
+      {
+        "question": "What is the result?\n\n```python\nprint(isinstance({}, dict))\n```",
+        "options": ["True", "False", "None", "Error"],
+        "answer": "True"
+      },
+      {
+        "question": "What will this print?\n\n```python\nprint(3 in [1, 2, 3])\n```",
+        "options": ["True", "False", "None", "Error"],
+        "answer": "True"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint(5 // 2)\n```",
+        "options": ["2", "2.5", "3", "1"],
+        "answer": "2"
+      },
+      {
+        "question": "Which of the following is a valid set operation?",
+        "options": ["a & b", "a + b", "a * b", "a - b - c"],
+        "answer": "a & b"
+      },
+      {
+        "question": "What does reduce do?",
+        "options": ["Applies function cumulatively", "Filters elements", "Maps elements", "Reduces memory"],
+        "answer": "Applies function cumulatively"
+      },
+      {
+        "question": "What is returned?\n\n```python\nlist(map(lambda x: x*x, [1, 2, 3]))\n```",
+        "options": ["[1, 4, 9]", "[1, 2, 3]", "[2, 4, 6]", "[1, 3, 5]"],
+        "answer": "[1, 4, 9]"
+      },
+      {
+        "question": "What does this list comprehension produce?\n\n```python\n[x for x in range(5) if x % 2]\n```",
+        "options": ["[1, 3]", "[0, 2, 4]", "[1, 2, 3, 4]", "[0, 1]"],
+        "answer": "[1, 3]"
+      },
+      {
+        "question": "What does `any([False, True, False])` return?",
+        "options": ["True", "False", "None", "Error"],
+        "answer": "True"
+      },
+      {
+        "question": "Which method returns all keys of a dictionary?",
+        "options": [".keys()", ".items()", ".values()", ".get()"],
+        "answer": ".keys()"
+      },
+      {
+        "question": "Which function will sort a list in-place?",
+        "options": ["sort()", "sorted()", "order()", "arrange()"],
+        "answer": "sort()"
+      },
+      {
+        "question": "What is the output?\n\n```python\nx = {1, 2, 2, 3}\nprint(len(x))\n```",
+        "options": ["3", "4", "2", "1"],
+        "answer": "3"
+      },
+      {
+        "question": "What is a correct way to handle an exception?",
+        "options": ["try: ... except: ...", "if: ... else: ...", "try: ... catch: ...", "error: ... end"],
+        "answer": "try: ... except: ..."
+      },
+      {
+        "question": "What will this raise?\n\n```python\nx = int('a')\n```",
+        "options": ["ValueError", "TypeError", "NameError", "SyntaxError"],
+        "answer": "ValueError"
+      },
+      {
+        "question": "Which is a valid syntax for a custom exception?",
+        "options": ["raise Exception('Error')", "raise('Error')", "throw Exception", "Error.raise()"],
+        "answer": "raise Exception('Error')"
+      },
+      {
+        "question": "Which is not iterable?",
+        "options": ["int", "list", "tuple", "dict"],
+        "answer": "int"
+      },
+      {
+        "question": "What is printed?\n\n```python\nx = [1, 2, 3]\nprint(x[::-1])\n```",
+        "options": ["[3, 2, 1]", "[1, 2, 3]", "[2, 1, 3]", "[1, 3, 2]"],
+        "answer": "[3, 2, 1]"
+      },
+      {
+        "question": "Which of these is NOT a valid lambda use?",
+        "options": ["lambda x: x*x", "lambda: 5", "lambda x, y: x+y", "lambda x x+1"],
+        "answer": "lambda x x+1"
+      },
+      {
+        "question": "Which of these can be dictionary keys?",
+        "options": ["tuple", "list", "set", "dict"],
+        "answer": "tuple"
+      },
+      {
+        "question": "What does the following code return?\n\n```python\nset('hello')\n```",
+        "options": ["{'h', 'e', 'l', 'o'}", "['h', 'e', 'l', 'o']", "'hello'", "{'hello'}"],
+        "answer": "{'h', 'e', 'l', 'o'}"
+      },
+      {
+        "question": "What will be the result?\n\n```python\nall([1, 0, 3])\n```",
+        "options": ["False", "True", "None", "Error"],
+        "answer": "False"
+      },
+      {
+        "question": "Which built-in function returns the ASCII value of a character?",
+        "options": ["ord()", "chr()", "ascii()", "char()"],
+        "answer": "ord()"
+      },
+      {
+        "question": "What is printed?\n\n```python\nprint((lambda x, y=2: x + y)(3))\n```",
+        "options": ["5", "3", "2", "Error"],
+        "answer": "5"
+      },
+      {
+        "question": "What does this list comprehension do?\n\n```python\n[i*2 for i in range(3)]\n```",
+        "options": ["[0, 2, 4]", "[2, 4, 6]", "[1, 2, 3]", "[3, 6, 9]"],
+        "answer": "[0, 2, 4]"
+      },
+      {
+        "question": "Which data type is immutable?",
+        "options": ["tuple", "list", "set", "dictionary"],
+        "answer": "tuple"
+      },
+      {
+        "question": "What is the output?\n\n```python\nlen(set([1, 2, 2, 3]))\n```",
+        "options": ["3", "4", "2", "1"],
+        "answer": "3"
+      },
+      {
+        "question": "What is the result?\n\n```python\n{x: x**2 for x in range(3)}\n```",
+        "options": ["{0: 0, 1: 1, 2: 4}", "{0: 1, 1: 2, 2: 3}", "[0, 1, 2]", "[0, 1, 4]"],
+        "answer": "{0: 0, 1: 1, 2: 4}"
+      },
+      {
+        "question": "What is printed?\n\n```python\nprint({True: 'yes', 1: 'no'})\n```",
+        "options": ["{True: 'no'}", "{True: 'yes', 1: 'no'}", "{1: 'no'}", "Error"],
+        "answer": "{True: 'no'}"
+      },
+      {
+        "question": "Which of these raises an error?\n\n```python\n{[1]: 'a'}\n```",
+        "options": ["Raises TypeError", "Works fine", "Raises KeyError", "Raises ValueError"],
+        "answer": "Raises TypeError"
+      },
+      {
+        "question": "What is the result of `list('123')`?",
+        "options": ["['1', '2', '3']", "['123']", "[123]", "[1, 2, 3]"],
+        "answer": "['1', '2', '3']"
+      },
+      {
+        "question": "What is the output?\n\n```python\nreduce(lambda x, y: x + y, [1, 2, 3])\n```",
+        "options": ["6", "1", "3", "[1, 2, 3]"],
+        "answer": "6"
+      },
+      {
+        "question": "Which of the following statements is true about `filter()`?",
+        "options": ["Returns items where the function returns True", "Returns all items", "Returns only first item", "Sorts the list"],
+        "answer": "Returns items where the function returns True"
+      },
+      {
+        "question": "Which of the following is used to handle exceptions in Python?",
+        "options": ["try-except", "catch-throw", "do-except", "if-else"],
+        "answer": "try-except"
+      },
+      {
+        "question": "What is the result?\n\n```python\nlist(map(lambda x: x+1, [0, 1]))\n```",
+        "options": ["[1, 2]", "[0, 1]", "[2, 3]", "[1, 1]"],
+        "answer": "[1, 2]"
+      },
+      {
+        "question": "Which of the following is a custom exception?",
+        "options": ["class MyError(Exception): pass", "def MyError(): pass", "MyError = Exception()", "raise()"],
+        "answer": "class MyError(Exception): pass"
+      },
+      {
+        "question": "What does this return?\n\n```python\nlist(filter(None, [0, 1, '', 'abc']))\n```",
+        "options": ["[1, 'abc']", "[0, 1]", "[0, '', 'abc']", "[1, '', 'abc']"],
+        "answer": "[1, 'abc']"
+      },
+      {
+        "question": "Which one is NOT a valid lambda use?",
+        "options": ["lambda x: x+1", "lambda x, y: x*y", "lambda: 5", "lambda x x+1"],
+        "answer": "lambda x x+1"
+      },
+      {
+        "question": "What does `isinstance('abc', str)` return?",
+        "options": ["True", "False", "Error", "None"],
+        "answer": "True"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint({x for x in 'aabb'})\n```",
+        "options": ["{'a', 'b'}", "{'a', 'a', 'b', 'b'}", "['a', 'b']", "['a', 'a', 'b', 'b']"],
+        "answer": "{'a', 'b'}"
+      },
+      {
+        "question": "Which function is used to combine elements from multiple iterables?",
+        "options": ["zip()", "map()", "filter()", "reduce()"],
+        "answer": "zip()"
+      },
+      {
+        "question": "What is the result?\n\n```python\nall([])\n```",
+        "options": ["True", "False", "Error", "None"],
+        "answer": "True"
+      },
+      {
+        "question": "Which of the following is a key characteristic of a set?",
+        "options": ["Unordered and unique items", "Ordered and duplicate allowed", "Mutable and indexed", "None of the above"],
+        "answer": "Unordered and unique items"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint((lambda x: x if x > 10 else 0)(12))\n```",
+        "options": ["12", "10", "0", "None"],
+        "answer": "12"
+      },
+      {
+        "question": "Which of the following can raise a ZeroDivisionError?",
+        "options": ["10 / 0", "0 / 10", "10 // 2", "10 % 2"],
+        "answer": "10 / 0"
+      },
+      {
+        "question": "Which of the following can be used as a key in a dictionary?",
+        "options": ["(1, 2)", "[1, 2]", "{1, 2}", "{1:2}"],
+        "answer": "(1, 2)"
+      },
+      {
+        "question": "What is printed?\n\n```python\nx = {'a': 1, 'b': 2}\nprint(x.get('c', 3))\n```",
+        "options": ["3", "None", "Error", "0"],
+        "answer": "3"
+      },
+      {
+        "question": "What will `list('abc')` return?",
+        "options": ["['a', 'b', 'c']", "['abc']", "('a', 'b', 'c')", "abc"],
+        "answer": "['a', 'b', 'c']"
+      },
+      {
+        "question": "Which will return True?\n\n```python\nNone == False\n```",
+        "options": ["False", "True", "Error", "None"],
+        "answer": "False"
+      },
+      {
+        "question": "Which statement correctly checks if a key exists in a dictionary?",
+        "options": ["'key' in dict", "dict.has_key('key')", "'key' exists dict", "'key' == dict"],
+        "answer": "'key' in dict"
+      },
+      {
+        "question": "What is the result of `min([4, 7, 2, 9])`?",
+        "options": ["2", "4", "9", "7"],
+        "answer": "2"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint({x:x*x for x in range(3)})\n```",
+        "options": ["{0: 0, 1: 1, 2: 4}", "[0, 1, 4]", "[x*x for x in range(3)]", "None"],
+        "answer": "{0: 0, 1: 1, 2: 4}"
+      },
+      {
+        "question": "What does `reversed([1, 2, 3])` return?",
+        "options": ["an iterator", "a list", "a tuple", "a string"],
+        "answer": "an iterator"
+      },{
+        "question": "Which of the following is not a valid list method?",
+        "options": ["append()", "extend()", "remove()", "delete()"],
+        "answer": "delete()"
+      },
+      {
+        "question": "Which function converts a string to integer?",
+        "options": ["int()", "str()", "float()", "eval()"],
+        "answer": "int()"
+      },
+      {
+        "question": "Which of these data types is mutable?",
+        "options": ["list", "tuple", "string", "int"],
+        "answer": "list"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint(type([]) == list)\n```",
+        "options": ["True", "False", "list", "None"],
+        "answer": "True"
+      },
+      {
+        "question": "What will `print(3 in [1, 2, 3])` display?",
+        "options": ["True", "False", "None", "Error"],
+        "answer": "True"
+      },
+      {
+        "question": "Which operator is used for exponentiation?",
+        "options": ["**", "^", "exp", "//"],
+        "answer": "**"
+      },
+      {
+        "question": "What is the result of:\n\n```python\nlen({'a': 1, 'b': 2})\n```",
+        "options": ["2", "1", "0", "Error"],
+        "answer": "2"
+      },
+      {
+        "question": "Which data structure allows duplicate values?",
+        "options": ["list", "set", "dict keys", "tuple keys"],
+        "answer": "list"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint(type((1,)))\n```",
+        "options": ["<class 'tuple'>", "<class 'int'>", "<class 'list'>", "<class 'set'>"],
+        "answer": "<class 'tuple'>"
+      },
+      {
+        "question": "What is the result?\n\n```python\n[1, 2] + [3, 4]\n```",
+        "options": ["[1, 2, 3, 4]", "[4, 6]", "[1, 2, [3, 4]]", "[1, 2]"],
+        "answer": "[1, 2, 3, 4]"
+      },
+      {
+        "question": "Which function gives max value in a list?",
+        "options": ["max()", "maximum()", "top()", "high()"],
+        "answer": "max()"
+      },
+      {
+        "question": "What does `zip([1,2], ['a','b'])` return?",
+        "options": ["[(1,'a'), (2,'b')]", "{1:'a', 2:'b'}", "[1, 'a', 2, 'b']", "None"],
+        "answer": "[(1,'a'), (2,'b')]"
+      },
+      {
+        "question": "Which of the following is used to define a class?",
+        "options": ["class", "def", "type", "object"],
+        "answer": "class"
+      },
+      {
+        "question": "What is the output?\n\n```python\nprint(bool([]))\n```",
+        "options": ["False", "True", "None", "[]"],
+        "answer": "False"
+      }
+    
+      
+    
+      
+        
+    ]
+  ]
+  

@@ -1,0 +1,1512 @@
+
+{
+  "questions": [
+    {
+      "question": "Which SQL statement is used to retrieve data from a database?",
+      "options": ["SELECT", "GET", "EXTRACT", "OPEN"],
+      "answer": "SELECT"
+    },
+    {
+      "question": "What keyword is used to sort the result set in SQL?",
+      "options": ["ORDER", "SORT", "ORDER BY", "ARRANGE"],
+      "answer": "ORDER BY"
+    },
+    {
+      "question": "Which clause is used to filter records in SQL?",
+      "options": ["WHERE", "HAVING", "FILTER", "LIMIT"],
+      "answer": "WHERE"
+    },
+    {
+      "question": "What does the SQL COUNT() function do?",
+      "options": [
+        "Counts the number of rows",
+        "Counts the number of columns",
+        "Counts non-null values in a column",
+        "All of the above"
+      ],
+      "answer": "Counts the number of rows"
+    },
+    {
+      "question": "Which SQL statement is used to update data in a database?",
+      "options": ["UPDATE", "MODIFY", "SET", "CHANGE"],
+      "answer": "UPDATE"
+    },
+    {
+      "question": "Which SQL clause is used to group rows that have the same values?",
+      "options": ["GROUP BY", "PARTITION BY", "ORDER BY", "DISTINCT"],
+      "answer": "GROUP BY"
+    },
+    {
+      "question": "Which operator is used to compare a value to a range of values in SQL?",
+      "options": ["BETWEEN", "IN", "LIKE", "EXISTS"],
+      "answer": "BETWEEN"
+    },
+    {
+      "question": "What does the SQL DISTINCT keyword do?",
+      "options": ["Removes duplicate rows", "Removes null values", "Sorts the data", "Joins tables"],
+      "answer": "Removes duplicate rows"
+    },
+    {
+      "question": "What is the default sorting order of the ORDER BY clause?",
+      "options": ["Ascending", "Descending", "Random", "None"],
+      "answer": "Ascending"
+    },
+    {
+      "question": "Which function is used to calculate the total sum of a numeric column in SQL?",
+      "options": ["SUM()", "ADD()", "TOTAL()", "COUNT()"],
+      "answer": "SUM()"
+    },
+    {
+      "question": "What is the purpose of the SQL LIKE operator?",
+      "options": [
+        "Matches a specific string",
+        "Matches a pattern in a string",
+        "Matches a numeric value",
+        "Matches a column"
+      ],
+      "answer": "Matches a pattern in a string"
+    },
+    {
+      "question": "Which SQL keyword is used to remove duplicates from a result set?",
+      "options": ["UNIQUE", "DISTINCT", "REMOVE", "DELETE"],
+      "answer": "DISTINCT"
+    },
+    {
+      "question": "Which of the following SQL functions is used to find the highest value in a column?",
+      "options": ["MAX()", "MIN()", "TOP()", "LARGE()"],
+      "answer": "MAX()"
+    },
+    {
+      "question": "Which SQL clause is used to specify a condition for grouping rows?",
+      "options": ["HAVING", "WHERE", "IF", "WHEN"],
+      "answer": "HAVING"
+    },
+    {
+      "question": "Which SQL statement is used to delete data from a table?",
+      "options": ["REMOVE", "DELETE", "DROP", "CLEAR"],
+      "answer": "DELETE"
+    },
+    {
+      "question": "Which of the following is used to add a column to an existing table?",
+      "options": ["ADD COLUMN", "ALTER TABLE", "MODIFY TABLE", "CREATE COLUMN"],
+      "answer": "ALTER TABLE"
+    },
+    {
+      "question": "Which SQL statement is used to create a table?",
+      "options": ["CREATE TABLE", "MAKE TABLE", "NEW TABLE", "ADD TABLE"],
+      "answer": "CREATE TABLE"
+    },
+    {
+      "question": "What is the purpose of the SQL AND operator?",
+      "options": [
+        "Combines multiple conditions in the WHERE clause",
+        "Combines multiple SELECT statements",
+        "Joins tables together",
+        "Filters duplicate records"
+      ],
+      "answer": "Combines multiple conditions in the WHERE clause"
+    },
+    {
+      "question": "What is the default value for a column when no value is provided in an INSERT statement?",
+      "options": ["NULL", "0", "Empty string", "Undefined"],
+      "answer": "NULL"
+    },
+    {
+      "question": "Which clause is used to join tables in SQL?",
+      "options": ["JOIN", "MERGE", "UNION", "COMBINE"],
+      "answer": "JOIN"
+    },
+    {
+      "question": "Which of the following operators is used to test for null values?",
+      "options": ["NULLIF", "IS NULL", "NULL", "NOT NULL"],
+      "answer": "IS NULL"
+    },
+    {
+      "question": "What type of JOIN will return all rows from both tables, even if there is no match?",
+      "options": ["LEFT JOIN", "RIGHT JOIN", "FULL JOIN", "INNER JOIN"],
+      "answer": "FULL JOIN"
+    },
+    {
+      "question": "Which SQL clause is used to specify the number of rows to be returned?",
+      "options": ["LIMIT", "TOP", "FETCH", "ROWS"],
+      "answer": "LIMIT"
+    },
+    {
+      "question": "Which of the following is used to find records that match a specific pattern?",
+      "options": ["LIKE", "IN", "EXISTS", "BETWEEN"],
+      "answer": "LIKE"
+    },
+    {
+      "question": "What does the SQL ISNULL function do?",
+      "options": [
+        "Checks if a value is null",
+        "Returns a default value if a value is null",
+        "Replaces null values with zero",
+        "Both a and b"
+      ],
+      "answer": "Both a and b"
+    },
+    {
+      "question": "Which of the following SQL commands will remove all rows from a table without deleting the table itself?",
+      "options": ["DROP", "DELETE", "TRUNCATE", "REMOVE"],
+      "answer": "TRUNCATE"
+    },
+    {
+      "question": "What keyword is used to combine two SELECT statements in SQL?",
+      "options": ["COMBINE", "UNION", "JOIN", "MERGE"],
+      "answer": "UNION"
+    },
+    {
+      "question": "Which SQL command is used to remove a table from the database?",
+      "options": ["DELETE", "REMOVE", "DROP", "TRUNCATE"],
+      "answer": "DROP"
+    },
+    {
+      "question": "Which SQL clause is used to specify the columns to be returned by a SELECT statement?",
+      "options": ["SELECT", "RETURN", "FROM", "WHERE"],
+      "answer": "SELECT"
+    },
+    {
+      "question": "Which of the following operators is used to combine multiple conditions in the WHERE clause?",
+      "options": ["AND", "OR", "NOT", "Both a and b"],
+      "answer": "Both a and b"
+    },
+    {
+      "question": "Which of the following is used to change the data type of a column?",
+      "options": ["ALTER COLUMN", "MODIFY COLUMN", "CHANGE COLUMN", "ALTER TABLE"],
+      "answer": "MODIFY COLUMN"
+    },
+    {
+      "question": "Which function is used to find the average value of a column in SQL?",
+      "options": ["AVERAGE()", "MEAN()", "AVG()", "SUM()"],
+      "answer": "AVG()"
+    },
+    {
+      "question": "What does the SQL NULL keyword represent?",
+      "options": [
+        "An empty string",
+        "A value that is missing or undefined",
+        "Zero",
+        "An error"
+      ],
+      "answer": "A value that is missing or undefined"
+    },
+    {
+      "question": "Which SQL keyword is used to check whether a value exists in a subquery?",
+      "options": ["EXISTS", "IN", "LIKE", "IS"],
+      "answer": "EXISTS"
+    },
+    {
+      "question": "Which operator is used to test whether a value is inside a range of values?",
+      "options": ["BETWEEN", "IN", "EXISTS", "LIKE"],
+      "answer": "BETWEEN"
+    },
+    {
+      "question": "Which SQL keyword is used to change an existing table structure?",
+      "options": ["MODIFY", "ALTER", "CHANGE", "UPDATE"],
+      "answer": "ALTER"
+    },
+    {
+      "question": "Which SQL clause is used to filter groups of rows in a query?",
+      "options": ["GROUP BY", "WHERE", "HAVING", "ORDER BY"],
+      "answer": "HAVING"
+    },
+    {
+      "question": "Which SQL keyword is used to join two or more tables based on a related column?",
+      "options": ["JOIN", "MERGE", "COMBINE", "UNION"],
+      "answer": "JOIN"
+    },
+    {
+      "question": "Which SQL function is used to round a number to the nearest integer?",
+      "options": ["ROUND()", "CEIL()", "FLOOR()", "INT()"],
+      "answer": "ROUND()"
+    },
+    {
+      "question": "What is the purpose of the SQL UPDATE statement?",
+      "options": [
+        "To modify an existing record",
+        "To delete a record",
+        "To insert a new record",
+        "To change the table structure"
+      ],
+      "answer": "To modify an existing record"
+    },
+    {
+      "question": "Which function is used to return the number of characters in a string in SQL?",
+      "options": ["LENGTH()", "COUNT()", "CHAR_COUNT()", "SIZE()"],
+      "answer": "LENGTH()"
+    },
+    {
+      "question": "What does the SQL BETWEEN operator do?",
+      "options": [
+        "Filters rows within a specified range",
+        "Filters rows that match a pattern",
+        "Combines two tables",
+        "Returns a boolean value"
+      ],
+      "answer": "Filters rows within a specified range"
+    },
+    {
+      "question": "Which of the following is the correct syntax to change a column’s data type in SQL?",
+      "options": [
+        "ALTER TABLE table_name CHANGE column_name new_data_type;",
+        "MODIFY TABLE table_name CHANGE column_name new_data_type;",
+        "ALTER COLUMN table_name MODIFY column_name new_data_type;",
+        "ALTER TABLE table_name ALTER column_name new_data_type;"
+      ],
+      "answer": "ALTER TABLE table_name CHANGE column_name new_data_type;"
+    },
+    {
+      "question": "Which SQL function is used to get the current date and time?",
+      "options": ["CURRENT()", "NOW()", "TODAY()", "DATE()"],
+      "answer": "NOW()"
+    },
+    {
+      "question": "Which SQL clause is used to return only unique values?",
+      "options": ["DISTINCT", "UNIQUE", "DIFFERENT", "SELECT DISTINCT"],
+      "answer": "DISTINCT"
+    },
+    {
+      "question": "What does the SQL IN operator do?",
+      "options": [
+        "Tests if a value is within a list of values",
+        "Tests if a value matches a pattern",
+        "Joins two tables",
+        "Combines results from multiple queries"
+      ],
+      "answer": "Tests if a value is within a list of values"
+    },
+    {
+      "question": "Which SQL statement is used to add a new row to a table?",
+      "options": ["INSERT INTO", "ADD NEW", "UPDATE", "ADD ROW"],
+      "answer": "INSERT INTO"
+    },
+    {
+      "question": "What will the following query return: SELECT * FROM employees WHERE salary = NULL;?",
+      "options": [
+        "Rows where salary is zero",
+        "Rows where salary is undefined",
+        "No rows",
+        "All rows"
+      ],
+      "answer": "No rows"
+    },
+    {
+      "question": "Which of the following SQL functions is used to calculate the number of rows in a table?",
+      "options": ["COUNT()", "SUM()", "NUMROWS()", "TOTAL()"],
+      "answer": "COUNT()"
+    },
+    {
+      "question": "Which clause is used to filter records after they have been grouped?",
+      "options": ["WHERE", "HAVING", "GROUP BY", "FILTER"],
+      "answer": "HAVING"
+    },
+    {
+      "question": "Which of the following is the correct syntax to delete a table from a database?",
+      "options": [
+        "REMOVE TABLE table_name;",
+        "DELETE TABLE table_name;",
+        "DROP TABLE table_name;",
+        "TRUNCATE TABLE table_name;"
+      ],
+      "answer": "DROP TABLE table_name;"
+    },
+    {
+      "question": "Which function is used to find the lowest value in a column?",
+      "options": ["MIN()", "LOW()", "SMALL()", "LESS()"],
+      "answer": "MIN()"
+    },
+    {
+      "question": "What is the output of the following query: SELECT NULL + 5;?",
+      "options": ["5", "NULL", "Error", "0"],
+      "answer": "NULL"
+    },
+    {
+      "question": "Which keyword is used to limit the number of rows returned by a SELECT statement?",
+      "options": ["LIMIT", "TOP", "FIRST", "NUMBER"],
+      "answer": "LIMIT"
+    },
+    {
+      "question": "What will the following SQL statement do: SELECT * FROM table1 WHERE column1 = 'A' AND column2 = 'B';?",
+      "options": [
+        "Returns rows where both conditions are true",
+        "Returns rows where one of the conditions is true",
+        "Returns all rows from table1",
+        "Returns no rows"
+      ],
+      "answer": "Returns rows where both conditions are true"
+    },
+    {
+      "question": "Which of the following is the correct way to add a constraint in SQL?",
+      "options": [
+        "ALTER TABLE table_name ADD CONSTRAINT constraint_name;",
+        "ALTER TABLE table_name MODIFY CONSTRAINT constraint_name;",
+        "ADD CONSTRAINT constraint_name TO table_name;",
+        "MODIFY TABLE table_name ADD CONSTRAINT constraint_name;"
+      ],
+      "answer": "ALTER TABLE table_name ADD CONSTRAINT constraint_name;"
+    },
+    {
+      "question": "Which SQL command is used to modify an existing table?",
+      "options": ["MODIFY", "UPDATE", "ALTER", "CHANGE"],
+      "answer": "ALTER"
+    },
+    {
+      "question": "What does the SQL INNER JOIN keyword do?",
+      "options": [
+        "Combines rows from two or more tables based on a related column",
+        "Combines all rows from two tables",
+        "Returns unmatched rows from both tables",
+        "Returns rows only from one table"
+      ],
+      "answer": "Combines rows from two or more tables based on a related column"
+    },
+    {
+      "question": "Which operator is used to combine the results of two SELECT queries in SQL?",
+      "options": ["JOIN", "UNION", "MERGE", "COMBINE"],
+      "answer": "UNION"
+    },
+    {
+      "question": "Which keyword is used in SQL to combine multiple conditions in the WHERE clause?",
+      "options": ["AND", "OR", "NOT", "Both a and b"],
+      "answer": "Both a and b"
+    },
+    {
+      "question": "Which SQL function is used to get the length of a string?",
+      "options": ["LENGTH()", "SIZE()", "CHAR_LENGTH()", "COUNT()"],
+      "answer": "LENGTH()"
+    },
+    {
+      "question": "Which SQL function is used to get the first character of a string?",
+      "options": ["LEFT()", "FIRST()", "SUBSTRING()", "CHARAT()"],
+      "answer": "LEFT()"
+    },
+    {
+      "question": "What does the SQL COALESCE function do?",
+      "options": [
+        "Returns the first non-NULL value from a list of arguments",
+        "Returns the NULL value if all arguments are NULL",
+        "Returns a default value if an expression is NULL",
+        "Replaces NULL values with zeros"
+      ],
+      "answer": "Returns the first non-NULL value from a list of arguments"
+    },
+    {
+      "question": "Which SQL clause is used to combine results from multiple SELECT statements?",
+      "options": ["JOIN", "COMBINE", "UNION", "MERGE"],
+      "answer": "UNION"
+    },
+    {
+      "question": "Which SQL statement is used to retrieve a specific number of rows from a query result?",
+      "options": ["LIMIT", "ROWS", "SELECT TOP", "FETCH"],
+      "answer": "LIMIT"
+    },
+    {
+      "question": "Which SQL keyword is used to check whether a subquery returns any records?",
+      "options": ["EXISTS", "IN", "LIKE", "NULL"],
+      "answer": "EXISTS"
+    },
+    {
+      "question": "Which function is used to extract a part of a string in SQL?",
+      "options": ["SUBSTRING()", "LEFT()", "RIGHT()", "SPLIT()"],
+      "answer": "SUBSTRING()"
+    },
+    {
+      "question": "Which SQL keyword is used to define a default value for a column?",
+      "options": ["DEFAULT", "VALUE", "SET", "INIT"],
+      "answer": "DEFAULT"
+    },
+    {
+      "question": "What will the following query return: SELECT '5' + '5';?",
+      "options": ["10", "55", "Error", "NULL"],
+      "answer": "55"
+    },
+    {
+      "question": "What is the purpose of the SQL HAVING clause?",
+      "options": [
+        "To filter records before grouping",
+        "To filter groups after grouping",
+        "To sort results",
+        "To join tables"
+      ],
+      "answer": "To filter groups after grouping"
+    },
+    {
+        "question": "Which SQL statement is used to create a new table in a database?",
+        "options": [
+          "a) CREATE NEW TABLE",
+          "b) NEW TABLE",
+          "c) CREATE TABLE",
+          "d) ADD TABLE"
+        ],
+        "answer": "c) CREATE TABLE"
+      },
+      {
+        "question": "What does the SQL LEFT JOIN return?",
+        "options": [
+          "a) All rows from the left table, and matched rows from the right table",
+          "b) All rows from the right table, and matched rows from the left table",
+          "c) Only matched rows from both tables",
+          "d) All rows from both tables"
+        ],
+        "answer": "a) All rows from the left table, and matched rows from the right table"
+      },
+      {
+        "question": "Which SQL clause is used to sort the result-set in ascending or descending order?",
+        "options": [
+          "a) SORT BY",
+          "b) ORDER BY",
+          "c) ARRANGE BY",
+          "d) GROUP BY"
+        ],
+        "answer": "b) ORDER BY"
+      },
+      {
+        "question": "Which SQL keyword is used to check if a value matches a pattern?",
+        "options": [
+          "a) LIKE",
+          "b) MATCH",
+          "c) SIMILAR",
+          "d) EQUAL"
+        ],
+        "answer": "a) LIKE"
+      },
+      {
+        "question": "What will be the result of the query SELECT COUNT(*) FROM students;?",
+        "options": [
+          "a) Total number of rows in the table",
+          "b) Total number of non-null values in the table",
+          "c) Total number of distinct values in the table",
+          "d) Sum of all values in the table"
+        ],
+        "answer": "a) Total number of rows in the table"
+      },
+      {
+        "question": "Which of the following is used to find the maximum value in a column?",
+        "options": [
+          "a) MAX()",
+          "b) TOP()",
+          "c) HIGHEST()",
+          "d) UPPER()"
+        ],
+        "answer": "a) MAX()"
+      },
+      {
+        "question": "Which of the following SQL statements will return only the first 5 records from a table named 'employees'?",
+        "options": [
+          "a) SELECT * FROM employees LIMIT 5;",
+          "b) SELECT * FROM employees FETCH 5;",
+          "c) SELECT TOP 5 * FROM employees;",
+          "d) SELECT * FROM employees ROWS 5;"
+        ],
+        "answer": "a) SELECT * FROM employees LIMIT 5;"
+      },
+      {
+        "question": "What will the following query return: SELECT * FROM table1 WHERE column1 > 5 AND column2 < 10;?",
+        "options": [
+          "a) Rows where column1 is greater than 5 and column2 is less than 10",
+          "b) Rows where column1 is greater than 5 or column2 is less than 10",
+          "c) Rows where column1 is less than 5 or column2 is greater than 10",
+          "d) All rows from table1"
+        ],
+        "answer": "a) Rows where column1 is greater than 5 and column2 is less than 10"
+      },
+      {
+        "question": "What does the SQL GROUP BY clause do?",
+        "options": [
+          "a) Groups rows with the same values into summary rows",
+          "b) Sorts rows in the result set",
+          "c) Filters rows in the result set",
+          "d) Joins multiple tables"
+        ],
+        "answer": "a) Groups rows with the same values into summary rows"
+      },
+      {
+        "question": "Which of the following SQL commands is used to update existing records in a table?",
+        "options": [
+          "a) MODIFY",
+          "b) UPDATE",
+          "c) ALTER",
+          "d) SET"
+        ],
+        "answer": "b) UPDATE"
+      },
+      {
+        "question": "What does the SQL DISTINCT keyword do?",
+        "options": [
+          "a) Filters duplicates from the result set",
+          "b) Returns only the first occurrence of each record",
+          "c) Sorts the result set",
+          "d) Joins tables based on a specific condition"
+        ],
+        "answer": "a) Filters duplicates from the result set"
+      },
+      {
+        "question": "Which SQL operator is used to find values within a specific range?",
+        "options": [
+          "a) BETWEEN",
+          "b) IN",
+          "c) LIKE",
+          "d) RANGE"
+        ],
+        "answer": "a) BETWEEN"
+      },
+      {
+        "question": "What does the SQL NOT operator do?",
+        "options": [
+          "a) Negates a condition",
+          "b) Filters records",
+          "c) Sorts records",
+          "d) Joins tables"
+        ],
+        "answer": "a) Negates a condition"
+      },
+      {
+        "question": "Which clause is used to sort the result set by multiple columns in SQL?",
+        "options": [
+          "a) ORDER BY",
+          "b) GROUP BY",
+          "c) HAVING",
+          "d) SORT BY"
+        ],
+        "answer": "a) ORDER BY"
+      },
+      {
+        "question": "Which of the following functions is used to convert a string to uppercase in SQL?",
+        "options": [
+          "a) UPPER()",
+          "b) UCASE()",
+          "c) CAPITALIZE()",
+          "d) TO_UPPER()"
+        ],
+        "answer": "a) UPPER()"
+      },
+      {
+        "question": "Which operator is used to check if a value is NULL in SQL?",
+        "options": [
+          "a) IS NULL",
+          "b) NULL",
+          "c) EMPTY",
+          "d) NOT NULL"
+        ],
+        "answer": "a) IS NULL"
+      },
+      {
+        "question": "Which SQL command is used to remove a row from a table?",
+        "options": [
+          "a) DELETE",
+          "b) REMOVE",
+          "c) DROP",
+          "d) TRUNCATE"
+        ],
+        "answer": "a) DELETE"
+      },
+      {
+        "question": "Which SQL function is used to find the total sum of a column’s values?",
+        "options": [
+          "a) SUM()",
+          "b) TOTAL()",
+          "c) ADD()",
+          "d) CALC()"
+        ],
+        "answer": "a) SUM()"
+      },
+      {
+        "question": "Which operator is used to check if a value is equal to a pattern in SQL?",
+        "options": [
+          "a) LIKE",
+          "b) IN",
+          "c) EQUALS",
+          "d) MATCH"
+        ],
+        "answer": "a) LIKE"
+      },
+      {
+        "question": "Which SQL clause is used to filter the records based on a specific condition?",
+        "options": [
+          "a) FILTER",
+          "b) WHERE",
+          "c) HAVING",
+          "d) GROUP BY"
+        ],
+        "answer": "b) WHERE"
+      },
+      {
+        "question": "Which SQL statement is used to remove all records from a table, but not the table itself?",
+        "options": [
+          "a) REMOVE",
+          "b) DROP",
+          "c) DELETE",
+          "d) TRUNCATE"
+        ],
+        "answer": "d) TRUNCATE"
+      },
+      {
+        "question": "Which of the following SQL statements will return the total number of unique records in the 'email' column?",
+        "options": [
+          "a) SELECT COUNT(email) FROM users;",
+          "b) SELECT DISTINCT COUNT(email) FROM users;",
+          "c) SELECT COUNT(DISTINCT email) FROM users;",
+          "d) SELECT UNIQUE COUNT(email) FROM users;"
+        ],
+        "answer": "c) SELECT COUNT(DISTINCT email) FROM users;"
+      },
+      {
+        "question": "What is the purpose of the SQL PRIMARY KEY?",
+        "options": [
+          "a) To enforce uniqueness for a column in a table",
+          "b) To add a foreign relationship between two tables",
+          "c) To identify duplicate values",
+          "d) To filter rows in a query"
+        ],
+        "answer": "a) To enforce uniqueness for a column in a table"
+      },
+      {
+        "question": "What will the following query return: SELECT * FROM table1 WHERE column1 IS NOT NULL;?",
+        "options": [
+          "a) All rows where column1 contains NULL values",
+          "b) All rows where column1 does not contain NULL values",
+          "c) No rows",
+          "d) All rows from table1"
+        ],
+        "answer": "b) All rows where column1 does not contain NULL values"
+      },
+      {
+        "question": "Which SQL command is used to permanently remove a database?",
+        "options": [
+          "a) DROP DATABASE",
+          "b) DELETE DATABASE",
+          "c) REMOVE DATABASE",
+          "d) TRUNCATE DATABASE"
+        ],
+        "answer": "a) DROP DATABASE"
+      },
+      {
+        "question": "Which of the following SQL statements is used to delete a column in a table?",
+        "options": [
+          "a) REMOVE COLUMN",
+          "b) DELETE COLUMN",
+          "c) DROP COLUMN",
+          "d) ALTER COLUMN"
+        ],
+        "answer": "c) DROP COLUMN"
+      },
+      {
+        "question": "What is the SQL wildcard character used to represent any number of characters?",
+        "options": [
+          "a) *",
+          "b) %",
+          "c) _",
+          "d) ?"
+        ],
+        "answer": "b) %"
+      },
+      {
+        "question": "Which SQL statement is used to add a new column to an existing table?",
+        "options": [
+          "a) ADD COLUMN",
+          "b) ALTER TABLE ADD COLUMN",
+          "c) MODIFY COLUMN",
+          "d) INSERT COLUMN"
+        ],
+        "answer": "b) ALTER TABLE ADD COLUMN"
+      },
+      {
+        "question": "Which SQL function is used to find the average value of a column?",
+        "options": [
+          "a) AVG()",
+          "b) MEAN()",
+          "c) AVERAGE()",
+          "d) MID()"
+        ],
+        "answer": "a) AVG()"
+      },
+      {
+        "question": "Which keyword is used to eliminate duplicate values in a SELECT query?",
+        "options": [
+          "a) DISTINCT",
+          "b) UNIQUE",
+          "c) DIFFERENT",
+          "d) EXCLUDE"
+        ],
+        "answer": "a) DISTINCT"
+      },
+      {
+        "question": "Which of the following SQL clauses is used to specify conditions for grouping in a query?",
+        "options": [
+          "a) HAVING",
+          "b) GROUP BY",
+          "c) ORDER BY",
+          "d) WHERE"
+        ],
+        "answer": "a) HAVING"
+      },
+      {
+        "question": "Which SQL statement is used to create an index on a table?",
+        "options": [
+          "a) CREATE INDEX",
+          "b) NEW INDEX",
+          "c) ADD INDEX",
+          "d) ALTER INDEX"
+        ],
+        "answer": "a) CREATE INDEX"
+      },
+      {
+        "question": "Which operator is used to match a column value against multiple values in SQL?",
+        "options": [
+          "a) LIKE",
+          "b) IN",
+          "c) BETWEEN",
+          "d) MATCH"
+        ],
+        "answer": "b) IN"
+      },
+      {
+        "question": "Which of the following SQL statements will return all rows from a table named 'customers' where the 'age' column is greater than 25?",
+        "options": [
+          "a) SELECT * FROM customers WHERE age > 25;",
+          "b) SELECT age FROM customers WHERE age > 25;",
+          "c) SELECT * FROM customers HAVING age > 25;",
+          "d) SELECT * FROM customers WHERE age > 25 ORDER BY age;"
+        ],
+        "answer": "a) SELECT * FROM customers WHERE age > 25;"
+      },
+      {
+        "question": "Which keyword is used to restrict the number of rows returned by a SELECT query?",
+        "options": [
+          "a) LIMIT",
+          "b) ROWS",
+          "c) FETCH",
+          "d) TOP"
+        ],
+        "answer": "a) LIMIT"
+      },
+      {
+        "question": "Which SQL function is used to round a number to the nearest integer?",
+        "options": [
+          "a) ROUND()",
+          "b) CEILING()",
+          "c) FLOOR()",
+          "d) INT()"
+        ],
+        "answer": "a) ROUND()"
+      },
+      {
+        "question": "Which SQL clause is used to specify a condition that must be true for each group in a query?",
+        "options": [
+          "a) WHERE",
+          "b) HAVING",
+          "c) GROUP BY",
+          "d) SELECT"
+        ],
+        "answer": "b) HAVING"
+      },
+      {
+        "question": "Which of the following SQL statements is used to insert a new record into a table?",
+        "options": [
+          "a) INSERT INTO",
+          "b) ADD RECORD",
+          "c) NEW RECORD",
+          "d) UPDATE RECORD"
+        ],
+        "answer": "a) INSERT INTO"
+      },
+      {
+        "question": "What will the following SQL query do: SELECT COUNT(*) FROM orders WHERE price > 1000;?",
+        "options": [
+          "a) Count the total number of orders",
+          "b) Count the total number of orders with a price greater than 1000",
+          "c) Count the number of distinct prices greater than 1000",
+          "d) Sum the price values greater than 1000"
+        ],
+        "answer": "b) Count the total number of orders with a price greater than 1000"
+      },
+      {
+        "question": "Which of the following SQL keywords is used to remove a table from a database?",
+        "options": [
+          "a) DELETE",
+          "b) DROP",
+          "c) REMOVE",
+          "d) TRUNCATE"
+        ],
+        "answer": "b) DROP"
+      },
+      {
+        "question": "Which of the following SQL clauses is used to remove duplicate rows from the result set?",
+        "options": [
+          "a) UNIQUE",
+          "b) DISTINCT",
+          "c) DIFFERENT",
+          "d) EXCLUDE"
+        ],
+        "answer": "b) DISTINCT"
+      },
+      {
+        "question": "Which SQL function is used to calculate the number of rows in a result set?",
+        "options": [
+          "a) COUNT()",
+          "b) TOTAL()",
+          "c) SUM()",
+          "d) NUMBER()"
+        ],
+        "answer": "a) COUNT()"
+      },
+      {
+        "question": "What does the SQL SELECT DISTINCT statement do?",
+        "options": [
+          "a) Filters out all rows with NULL values",
+          "b) Eliminates duplicate rows from the result set",
+          "c) Sorts the result set in ascending order",
+          "d) Retrieves data from a single table only"
+        ],
+        "answer": "b) Eliminates duplicate rows from the result set"
+      },
+      {
+        "question": "Which SQL clause is used to filter records based on conditions for groups?",
+        "options": [
+          "a) WHERE",
+          "b) HAVING",
+          "c) GROUP BY",
+          "d) ORDER BY"
+        ],
+        "answer": "b) HAVING"
+      },
+      {
+        "question": "Which of the following SQL statements is used to retrieve data from a table?",
+        "options": [
+          "a) GET",
+          "b) SELECT",
+          "c) SHOW",
+          "d) EXTRACT"
+        ],
+        "answer": "b) SELECT"
+      },
+      {
+        "question": "Which of the following SQL functions is used to get the minimum value from a column?",
+        "options": [
+          "a) MIN()",
+          "b) LOWEST()",
+          "c) LEAST()",
+          "d) SMALLEST()"
+        ],
+        "answer": "a) MIN()"
+      },
+      {
+        "question": "Which of the following SQL commands is used to change an existing column's definition in a table?",
+        "options": [
+          "a) ALTER TABLE",
+          "b) UPDATE TABLE",
+          "c) MODIFY TABLE",
+          "d) MODIFY COLUMN"
+        ],
+        "answer": "a) ALTER TABLE"
+      },[
+        {
+          "question": "What will the output of the following SQL query: SELECT DISTINCT name FROM students ORDER BY name DESC?",
+          "options": [
+            "a) It will display all student names in descending order",
+            "b) It will display all student names in ascending order",
+            "c) It will display unique student names in descending order",
+            "d) It will display unique student names in ascending order"
+          ],
+          "answer": "c) It will display unique student names in descending order"
+        },
+        {
+          "question": "Which of the following SQL statements will find the second-highest salary in the 'employees' table?",
+          "options": [
+            "a) SELECT MAX(salary) FROM employees WHERE salary NOT IN (SELECT MAX(salary) FROM employees);",
+            "b) SELECT MIN(salary) FROM employees WHERE salary NOT IN (SELECT MIN(salary) FROM employees);",
+            "c) SELECT MAX(salary) FROM employees;",
+            "d) SELECT salary FROM employees WHERE salary = (SELECT MAX(salary) FROM employees);"
+          ],
+          "answer": "a) SELECT MAX(salary) FROM employees WHERE salary NOT IN (SELECT MAX(salary) FROM employees);"
+        },
+        {
+          "question": "Which SQL query will return all employees with a salary higher than the average salary in the 'employees' table?",
+          "options": [
+            "a) SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);",
+            "b) SELECT * FROM employees WHERE salary > AVG(salary);",
+            "c) SELECT * FROM employees WHERE salary IN (SELECT AVG(salary) FROM employees);",
+            "d) SELECT * FROM employees WHERE salary > MAX(salary);"
+          ],
+          "answer": "a) SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);"
+        },
+        {
+          "question": "Which of the following SQL statements will correctly return the total number of rows in the 'orders' table excluding the rows where 'order_date' is NULL?",
+          "options": [
+            "a) SELECT COUNT(*) FROM orders WHERE order_date IS NOT NULL;",
+            "b) SELECT COUNT(order_date) FROM orders;",
+            "c) SELECT COUNT(*) FROM orders WHERE order_date IS NULL;",
+            "d) SELECT COUNT(order_date) FROM orders WHERE order_date IS NOT NULL;"
+          ],
+          "answer": "a) SELECT COUNT(*) FROM orders WHERE order_date IS NOT NULL;"
+        },
+        {
+          "question": "What will the following SQL query do: SELECT product_id, COUNT(*) FROM sales GROUP BY product_id HAVING COUNT(*) > 5;?",
+          "options": [
+            "a) It will return all products sold more than 5 times",
+            "b) It will return product IDs for all sales made with more than 5 items",
+            "c) It will return the products that were sold more than 5 times",
+            "d) It will return products with a total of more than 5 sales"
+          ],
+          "answer": "c) It will return the products that were sold more than 5 times"
+        },
+        {
+          "question": "Which SQL query will return the average salary of employees who have worked for more than 5 years?",
+          "options": [
+            "a) SELECT AVG(salary) FROM employees WHERE years_worked > 5;",
+            "b) SELECT AVG(salary) FROM employees WHERE years_worked <= 5;",
+            "c) SELECT AVG(salary) FROM employees WHERE years_worked > 5 GROUP BY salary;",
+            "d) SELECT AVG(salary) FROM employees HAVING years_worked > 5;"
+          ],
+          "answer": "a) SELECT AVG(salary) FROM employees WHERE years_worked > 5;"
+        },
+        {
+          "question": "Which of the following queries will return all customers who have placed orders but have not made a payment?",
+          "options": [
+            "a) SELECT customer_id FROM orders WHERE payment_status = 'UNPAID';",
+            "b) SELECT DISTINCT customer_id FROM orders WHERE payment_status IS NULL;",
+            "c) SELECT customer_id FROM orders WHERE payment_status = 'UNPAID' AND customer_id IS NOT NULL;",
+            "d) SELECT customer_id FROM orders WHERE payment_status = 'PAID';"
+          ],
+          "answer": "b) SELECT DISTINCT customer_id FROM orders WHERE payment_status IS NULL;"
+        },
+        {
+          "question": "How can you retrieve the 5 most recent orders from the 'orders' table based on the 'order_date' column?",
+          "options": [
+            "a) SELECT * FROM orders ORDER BY order_date LIMIT 5;",
+            "b) SELECT * FROM orders ORDER BY order_date DESC LIMIT 5;",
+            "c) SELECT * FROM orders WHERE order_date IN (SELECT order_date FROM orders LIMIT 5);",
+            "d) SELECT * FROM orders WHERE order_date = (SELECT MAX(order_date) FROM orders);"
+          ],
+          "answer": "b) SELECT * FROM orders ORDER BY order_date DESC LIMIT 5;"
+        },
+        {
+          "question": "Which of the following SQL queries will return all employees whose salary is between the average salary and the highest salary in the 'employees' table?",
+          "options": [
+            "a) SELECT * FROM employees WHERE salary BETWEEN (SELECT AVG(salary) FROM employees) AND (SELECT MAX(salary) FROM employees);",
+            "b) SELECT * FROM employees WHERE salary BETWEEN (SELECT MAX(salary) FROM employees) AND (SELECT AVG(salary) FROM employees);",
+            "c) SELECT * FROM employees WHERE salary > AVG(salary) AND salary < MAX(salary);",
+            "d) SELECT * FROM employees WHERE salary IN (SELECT AVG(salary), MAX(salary) FROM employees);"
+          ],
+          "answer": "a) SELECT * FROM employees WHERE salary BETWEEN (SELECT AVG(salary) FROM employees) AND (SELECT MAX(salary) FROM employees);"
+        },
+        {
+          "question": "Which SQL query will return the total sales for each product, sorted by product sales in descending order?",
+          "options": [
+            "a) SELECT product_id, SUM(sales) FROM sales GROUP BY product_id ORDER BY SUM(sales) DESC;",
+            "b) SELECT product_id, SUM(sales) FROM sales ORDER BY product_id DESC;",
+            "c) SELECT product_id, SUM(sales) FROM sales GROUP BY sales ORDER BY sales DESC;",
+            "d) SELECT product_id, SUM(sales) FROM sales GROUP BY product_id;"
+          ],
+          "answer": "a) SELECT product_id, SUM(sales) FROM sales GROUP BY product_id ORDER BY SUM(sales) DESC;"
+        },
+        {
+          "question": "Which of the following queries will return all employees who earn more than the average salary of their department?",
+          "options": [
+            "a) SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees GROUP BY department_id);",
+            "b) SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);",
+            "c) SELECT * FROM employees WHERE department_id IN (SELECT department_id FROM employees WHERE salary > AVG(salary));",
+            "d) SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees HAVING department_id = employees.department_id);"
+          ],
+          "answer": "a) SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees GROUP BY department_id);"
+        },
+        {
+          "question": "How can you find all customers who have made at least one purchase but not yet returned anything?",
+          "options": [
+            "a) SELECT customer_id FROM purchases WHERE return_status IS NULL;",
+            "b) SELECT customer_id FROM purchases WHERE return_status = 'RETURNED';",
+            "c) SELECT customer_id FROM purchases WHERE return_status IS NULL AND customer_id IN (SELECT customer_id FROM purchases);",
+            "d) SELECT customer_id FROM purchases WHERE return_status = 'NOT RETURNED';"
+          ],
+          "answer": "c) SELECT customer_id FROM purchases WHERE return_status IS NULL AND customer_id IN (SELECT customer_id FROM purchases);"
+        },
+        {
+          "question": "Which SQL query will return the employee who earned the maximum salary and also belongs to the department with the maximum total salary expenditure?",
+          "options": [
+            "a) SELECT * FROM employees WHERE salary = (SELECT MAX(salary) FROM employees) AND department_id = (SELECT department_id FROM employees GROUP BY department_id ORDER BY SUM(salary) DESC LIMIT 1);",
+            "b) SELECT * FROM employees WHERE department_id = (SELECT department_id FROM employees GROUP BY department_id ORDER BY SUM(salary) DESC LIMIT 1) AND salary = MAX(salary);",
+            "c) SELECT * FROM employees WHERE salary = (SELECT MAX(salary) FROM employees) AND department_id IN (SELECT department_id FROM employees);",
+            "d) SELECT * FROM employees WHERE salary = MAX(salary) AND department_id = (SELECT department_id FROM employees ORDER BY MAX(salary) DESC);"
+          ],
+          "answer": "a) SELECT * FROM employees WHERE salary = (SELECT MAX(salary) FROM employees) AND department_id = (SELECT department_id FROM employees GROUP BY department_id ORDER BY SUM(salary) DESC LIMIT 1);"
+        },
+        {
+          "question": "Which SQL query will return a list of products that have never been sold?",
+          "options": [
+            "a) SELECT product_id FROM products WHERE product_id NOT IN (SELECT product_id FROM sales);",
+            "b) SELECT product_id FROM products WHERE product_id NOT EXISTS (SELECT product_id FROM sales);",
+            "c) SELECT product_id FROM products WHERE product_id IS NULL;",
+            "d) SELECT product_id FROM products LEFT JOIN sales ON products.product_id = sales.product_id WHERE sales.product_id IS NULL;"
+          ],
+          "answer": "d) SELECT product_id FROM products LEFT JOIN sales ON products.product_id = sales.product_id WHERE sales.product_id IS NULL;"
+        },
+        {
+          "question": "Which of the following SQL queries will find the customers who have placed at least one order but not paid for it?",
+          "options": [
+            "a) SELECT customer_id FROM orders WHERE payment_status = 'UNPAID' AND customer_id IN (SELECT customer_id FROM orders);",
+            "b) SELECT customer_id FROM orders WHERE payment_status = 'UNPAID';",
+            "c) SELECT DISTINCT customer_id FROM orders WHERE payment_status IS NULL;",
+            "d) SELECT customer_id FROM orders WHERE payment_status = 'PAID';"
+          ],
+          "answer": "a) SELECT customer_id FROM orders WHERE payment_status = 'UNPAID' AND customer_id IN (SELECT customer_id FROM orders);"
+        },
+        {
+          "question": "Which query will return the product with the highest total sales, based on the sum of sales per product?",
+          "options": [
+            "a) SELECT product_id, SUM(sales) FROM sales GROUP BY product_id ORDER BY SUM(sales) DESC LIMIT 1;",
+            "b) SELECT product_id, SUM(sales) FROM sales GROUP BY product_id ORDER BY product_id DESC LIMIT 1;",
+            "c) SELECT product_id, MAX(sales) FROM sales GROUP BY product_id;",
+            "d) SELECT product_id, SUM(sales) FROM sales GROUP BY product_id ORDER BY sales DESC;"
+          ],
+          "answer": "a) SELECT product_id, SUM(sales) FROM sales GROUP BY product_id ORDER BY SUM(sales) DESC LIMIT 1;"
+        },
+        {
+          "question": "Which of the following queries will find employees who have the highest salary in each department?",
+          "options": [
+            "a) SELECT * FROM employees WHERE salary IN (SELECT MAX(salary) FROM employees GROUP BY department_id);",
+            "b) SELECT * FROM employees WHERE salary = MAX(salary) GROUP BY department_id;",
+            "c) SELECT employee_id, MAX(salary) FROM employees GROUP BY department_id;",
+            "d) SELECT * FROM employees WHERE salary = (SELECT MAX(salary) FROM employees WHERE department_id = employees.department_id);"
+          ],
+          "answer": "d) SELECT * FROM employees WHERE salary = (SELECT MAX(salary) FROM employees WHERE department_id = employees.department_id);"
+        },
+        {
+          "question": "How can you find the customers who have placed more than 3 orders?",
+          "options": [
+            "a) SELECT customer_id FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 3;",
+            "b) SELECT customer_id, COUNT(*) FROM orders WHERE COUNT(order_id) > 3;",
+            "c) SELECT customer_id FROM orders HAVING COUNT(order_id) > 3;",
+            "d) SELECT customer_id FROM orders WHERE COUNT(order_id) > 3 GROUP BY customer_id;"
+          ],
+          "answer": "a) SELECT customer_id FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 3;"
+        },
+        {
+          "question": "Which SQL query will return all products that have been sold at least once?",
+          "options": [
+            "a) SELECT product_id FROM products WHERE product_id IN (SELECT product_id FROM sales);",
+            "b) SELECT DISTINCT product_id FROM sales;",
+            "c) SELECT product_id FROM products JOIN sales ON products.product_id = sales.product_id;",
+            "d) SELECT product_id FROM products WHERE product_id EXISTS (SELECT product_id FROM sales);"
+          ],
+          "answer": "a) SELECT product_id FROM products WHERE product_id IN (SELECT product_id FROM sales);"
+        },
+        {
+          "question": "What does the following SQL query do: SELECT employee_id, department_id, SUM(salary) FROM employees GROUP BY department_id HAVING SUM(salary) > 100000;?",
+          "options": [
+            "a) It returns the departments with a total salary greater than 100,000",
+            "b) It returns employees whose salary is greater than 100,000",
+            "c) It returns the employee IDs and their departments whose total salary exceeds 100,000",
+            "d) It returns employees with individual salaries greater than 100,000"
+          ],
+          "answer": "a) It returns the departments with a total salary greater than 100,000"
+        },
+        {
+          "question": "Which SQL query will give the total number of products ordered per customer?",
+          "options": [
+            "a) SELECT customer_id, COUNT(product_id) FROM orders GROUP BY customer_id;",
+            "b) SELECT customer_id, SUM(product_id) FROM orders GROUP BY customer_id;",
+            "c) SELECT customer_id, COUNT(*) FROM orders GROUP BY product_id;",
+            "d) SELECT customer_id, COUNT(product_id) FROM orders GROUP BY product_id;"
+          ],
+          "answer": "a) SELECT customer_id, COUNT(product_id) FROM orders GROUP BY customer_id;"
+        },
+        {
+          "question": "Which query will retrieve the total amount spent by each customer, assuming 'orders' has a 'total_amount' column?",
+          "options": [
+            "a) SELECT customer_id, SUM(total_amount) FROM orders GROUP BY customer_id;",
+            "b) SELECT customer_id, SUM(total_amount) FROM orders;",
+            "c) SELECT customer_id, total_amount FROM orders GROUP BY customer_id;",
+            "d) SELECT customer_id, total_amount FROM orders GROUP BY total_amount;"
+          ],
+          "answer": "a) SELECT customer_id, SUM(total_amount) FROM orders GROUP BY customer_id;"
+        },
+        {
+          "question": "How would you retrieve the top 3 most expensive products from the 'products' table?",
+          "options": [
+            "a) SELECT * FROM products ORDER BY price DESC LIMIT 3;",
+            "b) SELECT * FROM products ORDER BY price ASC LIMIT 3;",
+            "c) SELECT * FROM products ORDER BY price DESC LIMIT 1;",
+            "d) SELECT * FROM products ORDER BY price LIMIT 3;"
+          ],
+          "answer": "a) SELECT * FROM products ORDER BY price DESC LIMIT 3;"
+        },
+        {
+          "question": "Which query will list all employees whose salary is greater than the average salary within their department?",
+          "options": [
+            "a) SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees GROUP BY department_id);",
+            "b) SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);",
+            "c) SELECT * FROM employees WHERE department_id IN (SELECT department_id FROM employees WHERE salary > AVG(salary));",
+            "d) SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees WHERE department_id = employees.department_id);"
+          ],
+          "answer": "a) SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees GROUP BY department_id);"
+        },
+        {
+          "question": "Which SQL query will give the number of orders per product, sorted in ascending order of order count?",
+          "options": [
+            "a) SELECT product_id, COUNT(*) FROM orders GROUP BY product_id ORDER BY COUNT(*) ASC;",
+            "b) SELECT product_id, COUNT(*) FROM orders GROUP BY product_id ORDER BY COUNT(*) DESC;",
+            "c) SELECT product_id, SUM(quantity) FROM orders GROUP BY product_id ORDER BY quantity ASC;",
+            "d) SELECT product_id, COUNT(*) FROM orders ORDER BY COUNT(*) ASC;"
+          ],
+          "answer": "a) SELECT product_id, COUNT(*) FROM orders GROUP BY product_id ORDER BY COUNT(*) ASC;"
+        },
+        {
+          "question": "Which query will give you the most recently hired employee from each department?",
+          "options": [
+            "a) SELECT department_id, employee_id, MAX(hire_date) FROM employees GROUP BY department_id;",
+            "b) SELECT * FROM employees WHERE hire_date = (SELECT MAX(hire_date) FROM employees GROUP BY department_id);",
+            "c) SELECT department_id, employee_id FROM employees ORDER BY hire_date DESC LIMIT 1;",
+            "d) SELECT department_id, employee_id, hire_date FROM employees GROUP BY department_id ORDER BY hire_date DESC;"
+          ],
+          "answer": "b) SELECT * FROM employees WHERE hire_date = (SELECT MAX(hire_date) FROM employees GROUP BY department_id);"
+        },
+        {
+          "question": "How can you find all customers who have made an order in 2021 and 2022?",
+          "options": [
+            "a) SELECT customer_id FROM orders WHERE YEAR(order_date) IN (2021, 2022);",
+            "b) SELECT customer_id FROM orders WHERE YEAR(order_date) = 2021 OR YEAR(order_date) = 2022;",
+            "c) SELECT customer_id FROM orders WHERE YEAR(order_date) BETWEEN 2021 AND 2022;",
+            "d) SELECT customer_id FROM orders WHERE YEAR(order_date) IN (SELECT YEAR(order_date) FROM orders WHERE YEAR(order_date) BETWEEN 2021 AND 2022);"
+          ],
+          "answer": "d) SELECT customer_id FROM orders WHERE YEAR(order_date) IN (SELECT YEAR(order_date) FROM orders WHERE YEAR(order_date) BETWEEN 2021 AND 2022);"
+        },
+        {
+          "question": "Which SQL query will give the total number of orders for each product, considering only products ordered more than 5 times?",
+          "options": [
+            "a) SELECT product_id, COUNT(*) FROM orders GROUP BY product_id HAVING COUNT(*) > 5;",
+            "b) SELECT product_id, SUM(quantity) FROM orders GROUP BY product_id HAVING SUM(quantity) > 5;",
+            "c) SELECT product_id, COUNT(order_id) FROM orders GROUP BY product_id HAVING COUNT(order_id) > 5;",
+            "d) SELECT product_id, COUNT(*) FROM orders WHERE COUNT(*) > 5 GROUP BY product_id;"
+          ],
+          "answer": "a) SELECT product_id, COUNT(*) FROM orders GROUP BY product_id HAVING COUNT(*) > 5;"
+        },
+        {
+          "question": "Which query will retrieve employees with a salary between the highest and lowest salary in the department?",
+          "options": [
+            "a) SELECT * FROM employees WHERE salary BETWEEN (SELECT MIN(salary) FROM employees) AND (SELECT MAX(salary) FROM employees);",
+            "b) SELECT * FROM employees WHERE salary BETWEEN (SELECT MAX(salary) FROM employees) AND (SELECT MIN(salary) FROM employees);",
+            "c) SELECT * FROM employees WHERE salary BETWEEN (SELECT MAX(salary) FROM employees GROUP BY department_id) AND (SELECT MIN(salary) FROM employees GROUP BY department_id);",
+            "d) SELECT * FROM employees WHERE salary BETWEEN (SELECT MIN(salary) FROM employees WHERE department_id = employees.department_id) AND (SELECT MAX(salary) FROM employees WHERE department_id = employees.department_id);"
+          ],
+          "answer": "d) SELECT * FROM employees WHERE salary BETWEEN (SELECT MIN(salary) FROM employees WHERE department_id = employees.department_id) AND (SELECT MAX(salary) FROM employees WHERE department_id = employees.department_id);"
+        },
+        {
+          "question": "Which SQL query will return the number of distinct products sold in the year 2021?",
+          "options": [
+            "a) SELECT COUNT(DISTINCT product_id) FROM sales WHERE YEAR(sale_date) = 2021;",
+            "b) SELECT DISTINCT product_id FROM sales WHERE YEAR(sale_date) = 2021;",
+            "c) SELECT COUNT(product_id) FROM sales WHERE YEAR(sale_date) = 2021;",
+            "d) SELECT DISTINCT product_id FROM sales WHERE YEAR(sale_date) BETWEEN 2021 AND 2021;"
+          ],
+          "answer": "a) SELECT COUNT(DISTINCT product_id) FROM sales WHERE YEAR(sale_date) = 2021;"
+        },
+        {
+          "question": "Which SQL query will return the second highest salary from the 'employees' table?",
+          "options": [
+            "a) SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees);",
+            "b) SELECT MIN(salary) FROM employees WHERE salary > (SELECT MIN(salary) FROM employees);",
+            "c) SELECT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 1;",
+            "d) SELECT salary FROM employees WHERE salary = (SELECT MAX(salary) FROM employees);"
+          ],
+          "answer": "a) SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees);"
+        },
+        {
+          "question": "Which SQL query will return employees who earn more than the average salary of all employees in their department?",
+          "options": [
+            "a) SELECT employee_id, department_id, salary FROM employees WHERE salary > (SELECT AVG(salary) FROM employees GROUP BY department_id);",
+            "b) SELECT employee_id, department_id, salary FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);",
+            "c) SELECT employee_id, department_id, salary FROM employees WHERE salary > (SELECT MAX(salary) FROM employees WHERE department_id = employees.department_id);",
+            "d) SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees WHERE department_id = employees.department_id);"
+          ],
+          "answer": "d) SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees WHERE department_id = employees.department_id);"
+        },
+        {
+          "question": "Which SQL query will give you the total amount of sales for each product, sorted by the product with the highest sales?",
+          "options": [
+            "a) SELECT product_id, SUM(sales_amount) FROM sales GROUP BY product_id ORDER BY SUM(sales_amount) DESC;",
+            "b) SELECT product_id, SUM(sales_amount) FROM sales GROUP BY product_id ORDER BY product_id DESC;",
+            "c) SELECT product_id, SUM(sales_amount) FROM sales ORDER BY sales_amount DESC;",
+            "d) SELECT product_id, sales_amount FROM sales GROUP BY product_id ORDER BY sales_amount DESC;"
+          ],
+          "answer": "a) SELECT product_id, SUM(sales_amount) FROM sales GROUP BY product_id ORDER BY SUM(sales_amount) DESC;"
+        },
+        {
+          "question": "Which query will return the top 5 highest-paying employees from each department?",
+          "options": [
+            "a) SELECT * FROM employees WHERE salary IN (SELECT salary FROM employees GROUP BY department_id ORDER BY salary DESC LIMIT 5);",
+            "b) SELECT employee_id, department_id, salary FROM employees WHERE salary = (SELECT MAX(salary) FROM employees GROUP BY department_id LIMIT 5);",
+            "c) SELECT employee_id, department_id, salary FROM employees ORDER BY department_id, salary DESC LIMIT 5;",
+            "d) SELECT * FROM employees WHERE employee_id IN (SELECT employee_id FROM employees ORDER BY department_id, salary DESC LIMIT 5);"
+          ],
+          "answer": "d) SELECT * FROM employees WHERE employee_id IN (SELECT employee_id FROM employees ORDER BY department_id, salary DESC LIMIT 5);"
+        },
+        {
+          "question": "Which SQL query will return the number of customers who have made more than 10 orders?",
+          "options": [
+            "a) SELECT customer_id, COUNT(*) FROM orders GROUP BY customer_id HAVING COUNT(*) > 10;",
+            "b) SELECT customer_id, COUNT(*) FROM orders WHERE COUNT(*) > 10 GROUP BY customer_id;",
+            "c) SELECT customer_id, SUM(order_amount) FROM orders GROUP BY customer_id HAVING SUM(order_amount) > 10;",
+            "d) SELECT customer_id FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 10;"
+          ],
+          "answer": "a) SELECT customer_id, COUNT(*) FROM orders GROUP BY customer_id HAVING COUNT(*) > 10;"
+        },
+        {
+          "question": "How would you retrieve all orders placed in the month of January 2022?",
+          "options": [
+            "a) SELECT * FROM orders WHERE YEAR(order_date) = 2022 AND MONTH(order_date) = 1;",
+            "b) SELECT * FROM orders WHERE order_date BETWEEN '2022-01-01' AND '2022-01-31';",
+            "c) SELECT * FROM orders WHERE order_date LIKE '2022-01-%';",
+            "d) SELECT * FROM orders WHERE MONTH(order_date) = 1 AND YEAR(order_date) = 2022;"
+          ],
+          "answer": "a) SELECT * FROM orders WHERE YEAR(order_date) = 2022 AND MONTH(order_date) = 1;"
+        },
+        {
+          "question": "Which query will return all employees who have worked for more than 5 years in the company?",
+          "options": [
+            "a) SELECT * FROM employees WHERE DATEDIFF(CURRENT_DATE, hire_date) > 1825;",
+            "b) SELECT * FROM employees WHERE hire_date < DATE_SUB(CURRENT_DATE, INTERVAL 5 YEAR);",
+            "c) SELECT * FROM employees WHERE hire_date <= CURRENT_DATE - INTERVAL 5 YEAR;",
+            "d) SELECT * FROM employees WHERE hire_date > DATE_SUB(CURRENT_DATE, INTERVAL 5 YEAR);"
+          ],
+          "answer": "b) SELECT * FROM employees WHERE hire_date < DATE_SUB(CURRENT_DATE, INTERVAL 5 YEAR);"
+        },
+        {
+          "question": "Which query will list all customers who have placed an order for a specific product, say 'Product A'?",
+          "options": [
+            "a) SELECT DISTINCT customer_id FROM orders WHERE product_id = 'Product A';",
+            "b) SELECT customer_id FROM orders WHERE product_id = 'Product A';",
+            "c) SELECT DISTINCT customer_id FROM orders JOIN products ON orders.product_id = products.product_id WHERE products.product_name = 'Product A';",
+            "d) SELECT customer_id FROM orders WHERE product_id = (SELECT product_id FROM products WHERE product_name = 'Product A');"
+          ],
+          "answer": "c) SELECT DISTINCT customer_id FROM orders JOIN products ON orders.product_id = products.product_id WHERE products.product_name = 'Product A';"
+        },
+        {
+          "question": "Which SQL query will return the department with the highest average salary?",
+          "options": [
+            "a) SELECT department_id, AVG(salary) FROM employees GROUP BY department_id ORDER BY AVG(salary) DESC LIMIT 1;",
+            "b) SELECT department_id, MAX(AVG(salary)) FROM employees GROUP BY department_id;",
+            "c) SELECT department_id, MAX(salary) FROM employees;",
+            "d) SELECT department_id, AVG(salary) FROM employees GROUP BY department_id HAVING AVG(salary) > (SELECT MAX(AVG(salary)) FROM employees GROUP BY department_id);"
+          ],
+          "answer": "a) SELECT department_id, AVG(salary) FROM employees GROUP BY department_id ORDER BY AVG(salary) DESC LIMIT 1;"
+        },
+        {
+          "question": "Which query will return the most popular product, i.e., the one that has been ordered the most?",
+          "options": [
+            "a) SELECT product_id, COUNT(*) FROM orders GROUP BY product_id ORDER BY COUNT(*) DESC LIMIT 1;",
+            "b) SELECT product_id FROM orders GROUP BY product_id ORDER BY COUNT(product_id) DESC LIMIT 1;",
+            "c) SELECT product_id, COUNT(order_id) FROM orders GROUP BY product_id;",
+            "d) SELECT product_id FROM orders WHERE COUNT(order_id) = MAX(COUNT(order_id)) GROUP BY product_id;"
+          ],
+          "answer": "a) SELECT product_id, COUNT(*) FROM orders GROUP BY product_id ORDER BY COUNT(*) DESC LIMIT 1;"
+        },
+        {
+          "question": "Which query will return customers who have placed orders in both January and February 2022?",
+          "options": [
+            "a) SELECT customer_id FROM orders WHERE MONTH(order_date) IN (1, 2) AND YEAR(order_date) = 2022;",
+            "b) SELECT customer_id FROM orders WHERE YEAR(order_date) = 2022 GROUP BY customer_id HAVING COUNT(DISTINCT MONTH(order_date)) = 2;",
+            "c) SELECT customer_id FROM orders WHERE YEAR(order_date) = 2022 AND (MONTH(order_date) = 1 OR MONTH(order_date) = 2);",
+            "d) SELECT customer_id FROM orders WHERE MONTH(order_date) = 1 AND MONTH(order_date) = 2 AND YEAR(order_date) = 2022;"
+          ],
+          "answer": "b) SELECT customer_id FROM orders WHERE YEAR(order_date) = 2022 GROUP BY customer_id HAVING COUNT(DISTINCT MONTH(order_date)) = 2;"
+        },
+        {
+          "question": "Which query will find all products that have not been sold?",
+          "options": [
+            "a) SELECT product_id FROM products WHERE product_id NOT IN (SELECT product_id FROM sales);",
+            "b) SELECT product_id FROM products WHERE product_id = NOT EXISTS (SELECT product_id FROM sales);",
+            "c) SELECT * FROM products WHERE product_id NOT IN (SELECT DISTINCT product_id FROM sales);",
+            "d) SELECT product_id FROM products WHERE product_id NOT EXISTS (SELECT product_id FROM sales);"
+          ],
+          "answer": "a) SELECT product_id FROM products WHERE product_id NOT IN (SELECT product_id FROM sales);"
+        },
+        {
+          "question": "How would you retrieve the total number of products in stock, grouped by their category?",
+          "options": [
+            "a) SELECT category, SUM(stock_quantity) FROM products GROUP BY category;",
+            "b) SELECT category_id, COUNT(*) FROM products GROUP BY category;",
+            "c) SELECT category_id, SUM(stock_quantity) FROM products GROUP BY category_id;",
+            "d) SELECT category, SUM(stock_quantity) FROM products GROUP BY category_id;"
+          ],
+          "answer": "a) SELECT category, SUM(stock_quantity) FROM products GROUP BY category;"
+        },
+        {
+          "question": "Which query will give the number of orders each customer has placed, with the customer name and order count?",
+          "options": [
+            "a) SELECT customer_name, COUNT(order_id) FROM orders GROUP BY customer_name;",
+            "b) SELECT customer_name, COUNT(*) FROM orders GROUP BY customer_id;",
+            "c) SELECT customer_id, COUNT(*) FROM orders GROUP BY customer_name;",
+            "d) SELECT customer_name, COUNT(order_id) FROM orders JOIN customers ON orders.customer_id = customers.customer_id GROUP BY customer_name;"
+          ],
+          "answer": "d) SELECT customer_name, COUNT(order_id) FROM orders JOIN customers ON orders.customer_id = customers.customer_id GROUP BY customer_name;"
+        },
+        {
+          "question": "Which query will retrieve the average salary for each department, excluding employees with a salary below 3000?",
+          "options": [
+            "a) SELECT department_id, AVG(salary) FROM employees WHERE salary >= 3000 GROUP BY department_id;",
+            "b) SELECT department_id, AVG(salary) FROM employees WHERE salary > 3000 GROUP BY department_id;",
+            "c) SELECT department_id, AVG(salary) FROM employees HAVING salary >= 3000 GROUP BY department_id;",
+            "d) SELECT department_id, AVG(salary) FROM employees GROUP BY department_id HAVING salary >= 3000;"
+          ],
+          "answer": "a) SELECT department_id, AVG(salary) FROM employees WHERE salary >= 3000 GROUP BY department_id;"
+        },
+        {
+          "question": "Which SQL query will return the average salary of employees in each department, but only for departments that have more than 5 employees?",
+          "options": [
+            "a) SELECT department_id, AVG(salary) FROM employees GROUP BY department_id HAVING COUNT(employee_id) > 5;",
+            "b) SELECT department_id, AVG(salary) FROM employees WHERE COUNT(employee_id) > 5 GROUP BY department_id;",
+            "c) SELECT department_id, AVG(salary) FROM employees HAVING COUNT(employee_id) > 5;",
+            "d) SELECT department_id, AVG(salary) FROM employees GROUP BY department_id HAVING AVG(salary) > 5;"
+          ],
+          "answer": "a) SELECT department_id, AVG(salary) FROM employees GROUP BY department_id HAVING COUNT(employee_id) > 5;"
+        },
+        {
+          "question": "Which query will retrieve the products with a price greater than the average price of all products in the 'products' table?",
+          "options": [
+            "a) SELECT product_id, price FROM products WHERE price > (SELECT AVG(price) FROM products);",
+            "b) SELECT product_id, price FROM products WHERE price > (SELECT MAX(price) FROM products);",
+            "c) SELECT product_id, price FROM products WHERE price > (SELECT MIN(price) FROM products);",
+            "d) SELECT product_id, price FROM products WHERE price > (SELECT AVG(price) FROM products GROUP BY category);"
+          ],
+          "answer": "a) SELECT product_id, price FROM products WHERE price > (SELECT AVG(price) FROM products);"
+        },
+        {
+          "question": "How would you retrieve a list of customers who have placed orders for a particular product, but excluding those who have returned that product?",
+          "options": [
+            "a) SELECT customer_id FROM orders WHERE product_id = 'Product A' AND return_flag = 0;",
+            "b) SELECT customer_id FROM orders WHERE product_id = 'Product A' AND return_flag != 1;",
+            "c) SELECT DISTINCT customer_id FROM orders WHERE product_id = 'Product A' AND return_flag = 0;",
+            "d) SELECT customer_id FROM orders WHERE product_id = 'Product A' AND return_flag = 'No';"
+          ],
+          "answer": "c) SELECT DISTINCT customer_id FROM orders WHERE product_id = 'Product A' AND return_flag = 0;"
+        },
+        {
+          "question": "Which query will return the total sales (quantity * price) for each product, sorted in descending order?",
+          "options": [
+            "a) SELECT product_id, SUM(quantity * price) AS total_sales FROM order_details GROUP BY product_id ORDER BY total_sales DESC;",
+            "b) SELECT product_id, SUM(quantity * price) FROM order_details GROUP BY product_id ORDER BY total_sales DESC;",
+            "c) SELECT product_id, SUM(quantity * price) FROM order_details ORDER BY total_sales DESC;",
+            "d) SELECT product_id, SUM(quantity * price) AS total_sales FROM order_details GROUP BY product_id ORDER BY product_id DESC;"
+          ],
+          "answer": "a) SELECT product_id, SUM(quantity * price) AS total_sales FROM order_details GROUP BY product_id ORDER BY total_sales DESC;"
+        },
+        {
+          "question": "Which SQL query will find employees who have the same salary as their department's average salary?",
+          "options": [
+            "a) SELECT employee_id, salary FROM employees WHERE salary = (SELECT AVG(salary) FROM employees WHERE department_id = employees.department_id);",
+            "b) SELECT employee_id, salary FROM employees WHERE salary = (SELECT AVG(salary) FROM employees GROUP BY department_id);",
+            "c) SELECT employee_id, salary FROM employees WHERE salary = (SELECT MAX(salary) FROM employees);",
+            "d) SELECT employee_id, salary FROM employees WHERE salary IN (SELECT AVG(salary) FROM employees);"
+          ],
+          "answer": "a) SELECT employee_id, salary FROM employees WHERE salary = (SELECT AVG(salary) FROM employees WHERE department_id = employees.department_id);"
+        },
+        {
+          "question": "How would you retrieve the employees who were hired in the last 6 months?",
+          "options": [
+            "a) SELECT * FROM employees WHERE hire_date > DATE_SUB(CURRENT_DATE, INTERVAL 6 MONTH);",
+            "b) SELECT * FROM employees WHERE hire_date BETWEEN DATE_SUB(CURRENT_DATE, INTERVAL 6 MONTH) AND CURRENT_DATE;",
+            "c) SELECT * FROM employees WHERE hire_date > CURRENT_DATE - INTERVAL 6 MONTH;",
+            "d) SELECT * FROM employees WHERE hire_date > CURRENT_DATE AND hire_date < DATE_ADD(CURRENT_DATE, INTERVAL 6 MONTH);"
+          ],
+          "answer": "b) SELECT * FROM employees WHERE hire_date BETWEEN DATE_SUB(CURRENT_DATE, INTERVAL 6 MONTH) AND CURRENT_DATE;"
+        },
+        {
+          "question": "Which query will retrieve customers who have placed at least one order, but have not placed an order in the last 6 months?",
+          "options": [
+            "a) SELECT customer_id FROM orders WHERE customer_id NOT IN (SELECT customer_id FROM orders WHERE order_date > DATE_SUB(CURRENT_DATE, INTERVAL 6 MONTH));",
+            "b) SELECT customer_id FROM orders WHERE customer_id IN (SELECT customer_id FROM orders WHERE order_date < DATE_SUB(CURRENT_DATE, INTERVAL 6 MONTH));",
+            "c) SELECT customer_id FROM orders GROUP BY customer_id HAVING MAX(order_date) < DATE_SUB(CURRENT_DATE, INTERVAL 6 MONTH);",
+            "d) SELECT customer_id FROM orders WHERE order_date < DATE_SUB(CURRENT_DATE, INTERVAL 6 MONTH) GROUP BY customer_id;"
+          ],
+          "answer": "c) SELECT customer_id FROM orders GROUP BY customer_id HAVING MAX(order_date) < DATE_SUB(CURRENT_DATE, INTERVAL 6 MONTH);"
+        },
+        {
+          "question": "Which SQL query will return the products that have never been ordered?",
+          "options": [
+            "a) SELECT product_id FROM products WHERE product_id NOT IN (SELECT product_id FROM order_details);",
+            "b) SELECT product_id FROM products WHERE product_id NOT EXISTS (SELECT product_id FROM order_details);",
+            "c) SELECT product_id FROM products WHERE product_id NOT IN (SELECT DISTINCT product_id FROM order_details);",
+            "d) SELECT product_id FROM products WHERE product_id NOT IN (SELECT product_id FROM orders);"
+          ],
+          "answer": "c) SELECT product_id FROM products WHERE product_id NOT IN (SELECT DISTINCT product_id FROM order_details);"
+        },
+        {
+          "question": "Which query will return all the orders that were placed in the year 2021 and have a total order value greater than $500?",
+          "options": [
+            "a) SELECT * FROM orders WHERE YEAR(order_date) = 2021 AND total_amount > 500;",
+            "b) SELECT * FROM orders WHERE order_date BETWEEN '2021-01-01' AND '2021-12-31' AND total_amount > 500;",
+            "c) SELECT * FROM orders WHERE YEAR(order_date) = 2021 AND order_amount > 500;",
+            "d) SELECT * FROM orders WHERE order_date >= '2021-01-01' AND order_date <= '2021-12-31' AND total_amount > 500;"
+          ],
+          "answer": "b) SELECT * FROM orders WHERE order_date BETWEEN '2021-01-01' AND '2021-12-31' AND total_amount > 500;"
+        },
+        {
+          "question": "Which SQL query will return all customers who have placed at least two orders with total order amounts greater than $1000?",
+          "options": [
+            "a) SELECT customer_id FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 1 AND SUM(order_amount) > 1000;",
+            "b) SELECT customer_id FROM orders WHERE SUM(order_amount) > 1000 GROUP BY customer_id HAVING COUNT(order_id) >= 2;",
+            "c) SELECT customer_id FROM orders WHERE COUNT(order_id) > 1 AND SUM(order_amount) > 1000 GROUP BY customer_id;",
+            "d) SELECT customer_id FROM orders GROUP BY customer_id HAVING SUM(order_amount) > 1000 AND COUNT(order_id) > 2;"
+          ],
+          "answer": "a) SELECT customer_id FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 1 AND SUM(order_amount) > 1000;"
+        },
+        {
+          "question": "Which SQL query will return the average order value for each customer who has placed more than 5 orders?",
+          "options": [
+            "a) SELECT customer_id, AVG(order_amount) FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 5;",
+            "b) SELECT customer_id, AVG(order_amount) FROM orders WHERE COUNT(order_id) > 5 GROUP BY customer_id;",
+            "c) SELECT customer_id, AVG(order_amount) FROM orders GROUP BY customer_id;",
+            "d) SELECT customer_id, SUM(order_amount)/COUNT(order_id) FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 5;"
+          ],
+          "answer": "a) SELECT customer_id, AVG(order_amount) FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 5;"
+        },
+        {
+          "question": "Which query will return the total number of products sold in each order, grouped by order ID?",
+          "options": [
+            "a) SELECT order_id, SUM(quantity) FROM order_details GROUP BY order_id;",
+            "b) SELECT order_id, COUNT(product_id) FROM order_details GROUP BY order_id;",
+            "c) SELECT order_id, SUM(quantity) FROM order_details ORDER BY order_id;",
+            "d) SELECT order_id, COUNT(*) FROM order_details GROUP BY order_id;"
+          ],
+          "answer": "a) SELECT order_id, SUM(quantity) FROM order_details GROUP BY order_id;"
+        },
+        {
+          "question": "Which SQL query will return employees who have the highest salary in their respective departments?",
+          "options": [
+            "a) SELECT * FROM employees WHERE salary = (SELECT MAX(salary) FROM employees WHERE department_id = employees.department_id);",
+            "b) SELECT * FROM employees WHERE salary = (SELECT MAX(salary) FROM employees GROUP BY department_id);",
+            "c) SELECT employee_id, department_id, salary FROM employees WHERE salary = (SELECT MAX(salary) FROM employees WHERE department_id = employees.department_id);",
+            "d) SELECT employee_id, salary FROM employees WHERE salary IN (SELECT MAX(salary) FROM employees GROUP BY department_id);"
+          ],
+          "answer": "a) SELECT * FROM employees WHERE salary = (SELECT MAX(salary) FROM employees WHERE department_id = employees.department_id);"
+        },
+        {
+          "question": "Which SQL query will return all employees who have the same salary as the employee with the lowest salary in the company?",
+          "options": [
+            "a) SELECT employee_id, salary FROM employees WHERE salary = (SELECT MIN(salary) FROM employees);",
+            "b) SELECT employee_id, salary FROM employees WHERE salary = (SELECT MIN(salary) FROM employees GROUP BY department_id);",
+            "c) SELECT employee_id, salary FROM employees WHERE salary = (SELECT MIN(salary) FROM employees WHERE department_id = employees.department_id);",
+            "d) SELECT employee_id, salary FROM employees WHERE salary = (SELECT MAX(salary) FROM employees);"
+          ],
+          "answer": "a) SELECT employee_id, salary FROM employees WHERE salary = (SELECT MIN(salary) FROM employees);"
+        },
+        {
+          "question": "Which SQL query will return the most recent order placed by each customer?",
+          "options": [
+            "a) SELECT customer_id, MAX(order_date) FROM orders GROUP BY customer_id;",
+            "b) SELECT customer_id, order_id, order_date FROM orders WHERE order_date = (SELECT MAX(order_date) FROM orders WHERE customer_id = orders.customer_id);",
+            "c) SELECT customer_id, order_date FROM orders ORDER BY order_date DESC LIMIT 1;",
+            "d) SELECT customer_id, order_id FROM orders WHERE order_date IN (SELECT MAX(order_date) FROM orders GROUP BY customer_id);"
+          ],
+          "answer": "b) SELECT customer_id, order_id, order_date FROM orders WHERE order_date = (SELECT MAX(order_date) FROM orders WHERE customer_id = orders.customer_id);"
+        }
+      
+      
+      
+      ]
+      
+      
+      
+  ]
+}

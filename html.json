@@ -1,0 +1,1009 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following is the correct HTML element for inserting an image?",
+      "options": [
+        "<img src=\"image.jpg\">",
+        "<image src=\"image.jpg\">",
+        "<picture src=\"image.jpg\">",
+        "<src=\"image.jpg\">"
+      ],
+      "answer": "<img src=\"image.jpg\">"
+    },
+    {
+      "question": "What does the <title> tag define in an HTML document?",
+      "options": [
+        "The title of the page as it appears in the browser’s title bar",
+        "The heading for the first section of the page",
+        "The footer of the webpage",
+        "The title of an image"
+      ],
+      "answer": "The title of the page as it appears in the browser’s title bar"
+    },
+    {
+      "question": "Which HTML tag is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": "<a>"
+    },
+    {
+      "question": "Which of the following is the correct syntax to create a list in HTML?",
+      "options": [
+        "<ul><li>Item</li></ul>",
+        "<list><item>Item</item></list>",
+        "<ol><li>Item</li></ol>",
+        "Both a and c"
+      ],
+      "answer": "Both a and c"
+    },
+    {
+      "question": "Which tag is used to define a table in HTML?",
+      "options": [
+        "<table>",
+        "<tab>",
+        "<tr>",
+        "<td>"
+      ],
+      "answer": "<table>"
+    },
+    {
+      "question": "What is the correct HTML for adding a background color to a webpage?",
+      "options": [
+        "<body style=\"background-color:blue;\">",
+        "<background color=\"blue\">",
+        "<body color=\"blue\">",
+        "<body bgcolor=\"blue\">"
+      ],
+      "answer": "<body style=\"background-color:blue;\">"
+    },
+    {
+      "question": "Which attribute is used to specify the source of an image?",
+      "options": [
+        "src",
+        "alt",
+        "href",
+        "image-source"
+      ],
+      "answer": "src"
+    },
+    {
+      "question": "What tag is used to define an input field in an HTML form?",
+      "options": [
+        "<input>",
+        "<field>",
+        "<input-field>",
+        "<text>"
+      ],
+      "answer": "<input>"
+    },
+    {
+      "question": "How do you create a text area for user input in an HTML form?",
+      "options": [
+        "<textarea>",
+        "<input type=\"text\">",
+        "<input type=\"textarea\">",
+        "<text>"
+      ],
+      "answer": "<textarea>"
+    },
+    {
+      "question": "Which tag is used to define the header of a table in HTML?",
+      "options": [
+        "<head>",
+        "<header>",
+        "<thead>",
+        "<title>"
+      ],
+      "answer": "<thead>"
+    },
+    {
+      "question": "Which of the following is used to group a block of elements in HTML?",
+      "options": [
+        "<div>",
+        "<span>",
+        "<block>",
+        "<group>"
+      ],
+      "answer": "<div>"
+    },
+    {
+      "question": "What does the <em> tag do in HTML?",
+      "options": [
+        "Adds emphasis to the enclosed text (italicizes it)",
+        "Embeds a multimedia object",
+        "Creates an image element",
+        "Defines the title of the page"
+      ],
+      "answer": "Adds emphasis to the enclosed text (italicizes it)"
+    },
+    {
+      "question": "How can you add comments in HTML?",
+      "options": [
+        "<!-- comment -->",
+        "// comment",
+        "/* comment */",
+        "// comment //"
+      ],
+      "answer": "<!-- comment -->"
+    },
+    {
+      "question": "Which attribute of the <a> tag is used to specify the URL?",
+      "options": [
+        "src",
+        "href",
+        "url",
+        "link"
+      ],
+      "answer": "href"
+    },
+    {
+      "question": "What is the purpose of the <head> tag in HTML?",
+      "options": [
+        "It contains metadata for the webpage",
+        "It contains the visible content of the webpage",
+        "It defines the main header of the page",
+        "It creates a form for user input"
+      ],
+      "answer": "It contains metadata for the webpage"
+    },
+    {
+      "question": "Which of the following tags defines a list item in HTML?",
+      "options": [
+        "<item>",
+        "<li>",
+        "<list-item>",
+        "<ul>"
+      ],
+      "answer": "<li>"
+    },
+    {
+      "question": "Which tag is used to display a line break in HTML?",
+      "options": [
+        "<br>",
+        "<break>",
+        "<newline>",
+        "<line>"
+      ],
+      "answer": "<br>"
+    },
+    {
+      "question": "How do you make a list that is ordered in HTML?",
+      "options": [
+        "<ul>",
+        "<li>",
+        "<ol>",
+        "<list>"
+      ],
+      "answer": "<ol>"
+    },
+    {
+      "question": "Which HTML tag is used to display bold text?",
+      "options": [
+        "<strong>",
+        "<b>",
+        "<bold>",
+        "Both a and b"
+      ],
+      "answer": "Both a and b"
+    },
+    {
+      "question": "Which attribute is used to define the destination of a link in HTML?",
+      "options": [
+        "href",
+        "target",
+        "src",
+        "alt"
+      ],
+      "answer": "target"
+    },
+    {
+      "question": "How do you create a checkbox in HTML?",
+      "options": [
+        "<input type=\"checkbox\">",
+        "<checkbox>",
+        "<input checkbox>",
+        "<box>"
+      ],
+      "answer": "<input type=\"checkbox\">"
+    },
+    {
+      "question": "What tag is used for an unordered list in HTML?",
+      "options": [
+        "<ol>",
+        "<ul>",
+        "<li>",
+        "<list>"
+      ],
+      "answer": "<ul>"
+    },
+    {
+      "question": "Which of the following is correct to define a hyperlink that opens in a new tab?",
+      "options": [
+        "<a href=\"https://www.example.com\" target=\"_blank\">Click Here</a>",
+        "<a href=\"https://www.example.com\" target=\"_new\">Click Here</a>",
+        "<a href=\"https://www.example.com\" new_tab=\"true\">Click Here</a>",
+        "<a href=\"https://www.example.com\" open=\"true\">Click Here</a>"
+      ],
+      "answer": "<a href=\"https://www.example.com\" target=\"_blank\">Click Here</a>"
+    },
+    {
+      "question": "Which tag is used to define a footer in HTML?",
+      "options": [
+        "<bottom>",
+        "<footer>",
+        "<section>",
+        "<footer-section>"
+      ],
+      "answer": "<footer>"
+    },
+    {
+      "question": "What is the correct HTML element for inserting a line break?",
+      "options": [
+        "<br>",
+        "<hr>",
+        "<line>",
+        "<break>"
+      ],
+      "answer": "<br>"
+    },
+    {
+      "question": "Which of the following is the correct syntax for embedding a video in HTML?",
+      "options": [
+        "<video src=\"movie.mp4\">",
+        "<video file=\"movie.mp4\">",
+        "<video path=\"movie.mp4\">",
+        "<video href=\"movie.mp4\">"
+      ],
+      "answer": "<video src=\"movie.mp4\">"
+    },
+    {
+      "question": "Which tag is used to display an image in HTML?",
+      "options": [
+        "<image>",
+        "<pic>",
+        "<img>",
+        "<img src>"
+      ],
+      "answer": "<img>"
+    },
+    {
+      "question": "Which attribute specifies an alternate text for an image, if the image cannot be displayed?",
+      "options": [
+        "alt",
+        "src",
+        "title",
+        "longdesc"
+      ],
+      "answer": "alt"
+    },
+    {
+      "question": "What is the purpose of the <!DOCTYPE html> declaration?",
+      "options": [
+        "It defines the document type and version of HTML",
+        "It declares the beginning of an HTML document",
+        "It defines metadata for the page",
+        "It loads the stylesheet for the page"
+      ],
+      "answer": "It defines the document type and version of HTML"
+    },
+    {
+      "question": "Which tag is used to create a table row in HTML?",
+      "options": [
+        "<td>",
+        "<th>",
+        "<tr>",
+        "<table>"
+      ],
+      "answer": "<tr>"
+    },
+    {
+      "question": "How can you make a text field in an HTML form that spans multiple lines?",
+      "options": [
+        "<input type=\"textarea\">",
+        "<input type=\"text\">",
+        "<textarea>",
+        "<textarea lines=\"5\">"
+      ],
+      "answer": "<textarea>"
+    },
+    {
+      "question": "Which HTML tag is used to define a table cell that contains header information?",
+      "options": [
+        "<th>",
+        "<td>",
+        "<tr>",
+        "<thead>"
+      ],
+      "answer": "<th>"
+    },
+    {
+      "question": "Which tag is used to define a clickable button in HTML?",
+      "options": [
+        "<button>",
+        "<input type=\"button\">",
+        "<click>",
+        "Both a and b"
+      ],
+      "answer": "Both a and b"
+    },
+    {
+      "question": "Which HTML element is used to group inline elements together?",
+      "options": [
+        "<div>",
+        "<section>",
+        "<span>",
+        "<group>"
+      ],
+      "answer": "<span>"
+    },
+    {
+      "question": "How do you create a radio button in HTML?",
+      "options": [
+        "<input type=\"radio\">",
+        "<radio>",
+        "<input radio>",
+        "<button type=\"radio\">"
+      ],
+      "answer": "<input type=\"radio\">"
+    },
+    {
+      "question": "Which of the following HTML elements is used to create a line divider?",
+      "options": [
+        "<line>",
+        "<hr>",
+        "<div>",
+        "<break>"
+      ],
+      "answer": "<hr>"
+    },
+    {
+      "question": "What is the default value of the type attribute for an <input> tag?",
+      "options": [
+        "button",
+        "text",
+        "submit",
+        "password"
+      ],
+      "answer": "text"
+    },
+    {
+      "question": "What is the purpose of the target=\"_blank\" attribute in a hyperlink?",
+      "options": [
+        "Opens the link in the same tab",
+        "Opens the link in a new tab",
+        "Redirects the link to a different page",
+        "Opens the link in a new window"
+      ],
+      "answer": "Opens the link in a new tab"
+    },
+    {
+      "question": "Which tag is used to define a description list in HTML?",
+      "options": [
+        "<dl>",
+        "<list>",
+        "<description>",
+        "<desc>"
+      ],
+      "answer": "<dl>"
+    },
+    {
+      "question": "What does the <strong> tag do in HTML?",
+      "options": [
+        "Highlights text",
+        "Underlines text",
+        "Makes text bold",
+        "Italicizes text"
+      ],
+      "answer": "Makes text bold"
+    },
+    {
+      "question": "Which tag is used to define a footer in HTML?",
+      "options": [
+        "<bottom>",
+        "<footer>",
+        "<section>",
+        "<foot>"
+      ],
+      "answer": "<footer>"
+    },
+    {
+      "question": "Which of the following is the correct way to specify a CSS style for a paragraph in HTML?",
+      "options": [
+        "<p style=\"color: blue;\">",
+        "<p class=\"blue\">",
+        "<p css=\"color: blue;\">",
+        "<p color=\"blue;\">"
+      ],
+      "answer": "<p style=\"color: blue;\">"
+    },
+    {
+      "question": "Which HTML element is used to display a heading?",
+      "options": [
+        "<head>",
+        "<h1>",
+        "<header>",
+        "<title>"
+      ],
+      "answer": "<h1>"
+    },
+    {
+      "question": "How do you create a table in HTML with 3 columns and 2 rows?",
+      "options": [
+        "<table><tr><td>1</td><td>2</td><td>3</td></tr><tr><td>4</td><td>5</td><td>6</td></tr></table>",
+        "<table><row><column>1</column><column>2</column></row></table>",
+        "<table><tr><td>1</td><td>2</td></tr><tr><td>3</td><td>4</td></tr></table>",
+        "<table><tr><th>1</th><th>2</th><th>3</th></tr></table>"
+      ],
+      "answer": "<table><tr><td>1</td><td>2</td><td>3</td></tr><tr><td>4</td><td>5</td><td>6</td></tr></table>"
+    },
+    {
+      "question": "Which of the following tags is used to specify a division or section in HTML?",
+      "options": [
+        "<section>",
+        "<div>",
+        "<group>",
+        "<class>"
+      ],
+      "answer": "<div>"
+    },
+    {
+      "question": "What does the <meta> tag provide in an HTML document?",
+      "options": [
+        "The metadata about the webpage",
+        "The main content of the page",
+        "The page title",
+        "The link to the stylesheet"
+      ],
+      "answer": "The metadata about the webpage"
+    },
+    {
+      "question": "Which HTML element is used to embed audio files?",
+      "options": [
+        "<audio>",
+        "<sound>",
+        "<media>",
+        "<music>"
+      ],
+      "answer": "<audio>"
+    },
+    {
+      "question": "Which HTML tag defines the body content of the page?",
+      "options": [
+        "<head>",
+        "<body>",
+        "<content>",
+        "<main>"
+      ],
+      "answer": "<body>"
+    },
+    {
+      "question": "What is the purpose of the <link> tag in HTML?",
+      "options": [
+        "It links to an external CSS file",
+        "It links to a JavaScript file",
+        "It links to a website",
+        "It creates a hyperlink"
+      ],
+      "answer": "It links to an external CSS file"
+    },
+    {
+      "question": "How do you include an external JavaScript file in HTML?",
+      "options": [
+        "<script src=\"file.js\"></script>",
+        "<javascript src=\"file.js\">",
+        "<js src=\"file.js\">",
+        "<include src=\"file.js\">"
+      ],
+      "answer": "<script src=\"file.js\"></script>"
+    },{
+        "questions": [
+          {
+            "question": "What is the difference between <div> and <span> elements in HTML?",
+            "options": [
+              "<div> is inline, while <span> is block-level.",
+              "<div> is block-level, while <span> is inline.",
+              "<div> and <span> are both inline elements.",
+              "<div> and <span> are both block-level elements."
+            ],
+            "answer": "<div> is block-level, while <span> is inline."
+          },
+          {
+            "question": "Which attribute is used to specify a web page's background image in HTML?",
+            "options": [
+              "background-image",
+              "bg",
+              "style",
+              "background"
+            ],
+            "answer": "background"
+          },
+          {
+            "question": "What does the alt attribute in an <img> tag do?",
+            "options": [
+              "Specifies the title of the image.",
+              "Provides alternative text when the image is not available.",
+              "Changes the image's background color.",
+              "Aligns the image in the center."
+            ],
+            "answer": "Provides alternative text when the image is not available."
+          },
+          {
+            "question": "Which of the following is correct about the <iframe> tag in HTML?",
+            "options": [
+              "It is used to embed external applications like Google Maps.",
+              "It is used for embedding a multimedia object.",
+              "It is used to insert a background image.",
+              "It is used for forms."
+            ],
+            "answer": "It is used to embed external applications like Google Maps."
+          },
+          {
+            "question": "What happens if you use a <title> tag inside the <body> tag?",
+            "options": [
+              "The title is displayed on the web page.",
+              "The page won't load correctly.",
+              "It will display in the browser tab.",
+              "It will display an error message."
+            ],
+            "answer": "The page won't load correctly."
+          },
+          {
+            "question": "How can you make a hyperlink open in a new tab in HTML?",
+            "options": [
+              "<a href=\"url\" target=\"_new\">",
+              "<a href=\"url\" target=\"new\">",
+              "<a href=\"url\" target=\"_blank\">",
+              "<a href=\"url\" target=\"blank\">"
+            ],
+            "answer": "<a href=\"url\" target=\"_blank\">"
+          },
+          {
+            "question": "What does the z-index CSS property control in HTML?",
+            "options": [
+              "The vertical positioning of elements.",
+              "The horizontal alignment of elements.",
+              "The stacking order of elements.",
+              "The font size of elements."
+            ],
+            "answer": "The stacking order of elements."
+          },
+          {
+            "question": "Which element is used to define navigation links in HTML?",
+            "options": [
+              "<nav>",
+              "<header>",
+              "<footer>",
+              "<links>"
+            ],
+            "answer": "<nav>"
+          },
+          {
+            "question": "What does the <meta> tag do in HTML?",
+            "options": [
+              "It is used to define metadata like author, description, and keywords.",
+              "It defines a table.",
+              "It is used for adding images.",
+              "It defines header content."
+            ],
+            "answer": "It is used to define metadata like author, description, and keywords."
+          },
+          {
+            "question": "What is the purpose of the <head> section in an HTML document?",
+            "options": [
+              "It contains the body content of the page.",
+              "It holds metadata and links to stylesheets and scripts.",
+              "It defines the main structure of the page.",
+              "It contains navigation links."
+            ],
+            "answer": "It holds metadata and links to stylesheets and scripts."
+          },
+          {
+            "question": "How do you create a table in HTML?",
+            "options": [
+              "<table><tr><td></td></tr></table>",
+              "<table><th><td></td></th></table>",
+              "<table><row><cell></cell></row></table>",
+              "<table><row><column></column></row></table>"
+            ],
+            "answer": "<table><tr><td></td></tr></table>"
+          },
+          {
+            "question": "Which attribute is used to specify the width of an image in HTML?",
+            "options": [
+              "img-width",
+              "width",
+              "image-width",
+              "img-size"
+            ],
+            "answer": "width"
+          },
+          {
+            "question": "What is the correct HTML tag to link to an external style sheet?",
+            "options": [
+              "<link rel=\"stylesheet\" href=\"styles.css\">",
+              "<style rel=\"stylesheet\" href=\"styles.css\">",
+              "<css link=\"styles.css\">",
+              "<style src=\"styles.css\">"
+            ],
+            "answer": "<link rel=\"stylesheet\" href=\"styles.css\">"
+          },
+          {
+            "question": "Which of the following elements can be used to create an unordered list in HTML?",
+            "options": [
+              "<list>",
+              "<ol>",
+              "<ul>",
+              "<li>"
+            ],
+            "answer": "<ul>"
+          },
+          {
+            "question": "How do you include comments in HTML?",
+            "options": [
+              "<!-- This is a comment -->",
+              "// This is a comment",
+              "/* This is a comment */",
+              "/* This is a comment */"
+            ],
+            "answer": "<!-- This is a comment -->"
+          },
+          {
+            "question": "What is the purpose of the <!DOCTYPE html> declaration in an HTML document?",
+            "options": [
+              "It defines the HTML version used in the document.",
+              "It specifies the content type of the document.",
+              "It helps to format the document content.",
+              "It links to the external CSS file."
+            ],
+            "answer": "It defines the HTML version used in the document."
+          },
+          {
+            "question": "Which element is used to display a heading in HTML?",
+            "options": [
+              "<h>",
+              "<header>",
+              "<h1> to <h6>",
+              "<head>"
+            ],
+            "answer": "<h1> to <h6>"
+          },
+          {
+            "question": "Which tag is used to define an ordered list in HTML?",
+            "options": [
+              "<ol>",
+              "<ul>",
+              "<li>",
+              "<list>"
+            ],
+            "answer": "<ol>"
+          },
+          {
+            "question": "How do you make text bold in HTML?",
+            "options": [
+              "<b>",
+              "<strong>",
+              "Both <b> and <strong>",
+              "Both <strong> and <em>"
+            ],
+            "answer": "Both <b> and <strong>"
+          },
+          {
+            "question": "How do you link to an external JavaScript file in HTML?",
+            "options": [
+              "<js src=\"script.js\">",
+              "<script src=\"script.js\">",
+              "<link href=\"script.js\">",
+              "<external src=\"script.js\">"
+            ],
+            "answer": "<script src=\"script.js\">"
+          },
+          {
+            "question": "Which of the following is a correct way to include inline CSS in HTML?",
+            "options": [
+              "<style=\"color:blue;\">",
+              "<div style=\"color:blue;\">",
+              "<div><style>color:blue;</style></div>",
+              "<div color=\"blue\">"
+            ],
+            "answer": "<div style=\"color:blue;\">"
+          },
+          {
+            "question": "What does the formaction attribute do in HTML?",
+            "options": [
+              "It specifies the URL where the form data should be submitted.",
+              "It sets the default action for the form.",
+              "It specifies the method to send the form data.",
+              "It allows setting an action only for specific buttons."
+            ],
+            "answer": "It allows setting an action only for specific buttons."
+          },
+          {
+            "question": "What tag would you use to create a dropdown menu in HTML?",
+            "options": [
+              "<input>",
+              "<select>",
+              "<dropdown>",
+              "<option>"
+            ],
+            "answer": "<select>"
+          },
+          {
+            "question": "Which HTML tag is used to define a paragraph?",
+            "options": [
+              "<p>",
+              "<para>",
+              "<text>",
+              "<paragraph>"
+            ],
+            "answer": "<p>"
+          },
+          {
+            "question": "How do you set the character encoding to UTF-8 in HTML?",
+            "options": [
+              "<meta charset=\"utf-8\">",
+              "<meta encoding=\"utf-8\">",
+              "<meta charset=\"UTF-8\">",
+              "<meta type=\"UTF-8\">"
+            ],
+            "answer": "<meta charset=\"utf-8\">"
+          },
+          {
+            "question": "What is the difference between the <strong> and <em> tags in HTML?",
+            "options": [
+              "<strong> makes text bold, while <em> makes it italic.",
+              "<strong> adds emphasis to text, while <em> marks text as important.",
+              "<strong> represents a more semantic level of importance, while <em> only emphasizes text.",
+              "There is no difference; both are used for emphasis."
+            ],
+            "answer": "<strong> makes text bold, while <em> makes it italic."
+          },
+          {
+            "question": "What does the target attribute in an anchor tag do in HTML?",
+            "options": [
+              "Specifies where to display the linked document.",
+              "Specifies the title of the linked document.",
+              "Specifies the language of the linked document.",
+              "Specifies the URL of the linked document."
+            ],
+            "answer": "Specifies where to display the linked document."
+          },
+          {
+            "question": "Which of the following tags is used for a footer in HTML5?",
+            "options": [
+              "<footer>",
+              "<bottom>",
+              "<end>",
+              "<foot>"
+            ],
+            "answer": "<footer>"
+          },
+          {
+            "question": "How do you define a line break in HTML?",
+            "options": [
+              "<br>",
+              "<break>",
+              "<hr>",
+              "<line>"
+            ],
+            "answer": "<br>"
+          },
+          {
+            "question": "What does the input type \"range\" do in HTML?",
+            "options": [
+              "Defines a slider control for selecting a value within a range.",
+              "Defines a text box.",
+              "Defines a button to submit a form.",
+              "Defines a password field."
+            ],
+            "answer": "Defines a slider control for selecting a value within a range."
+          },
+          {
+            "question": "What happens if an attribute is omitted in a <textarea> tag?",
+            "options": [
+              "It will display a default value.",
+              "It will be treated as an empty field.",
+              "It will generate an error.",
+              "It will be ignored."
+            ],
+            "answer": "It will be treated as an empty field."
+          },
+          {
+            "question": "Which tag defines a list item in HTML?",
+            "options": [
+              "<li>",
+              "<item>",
+              "<list-item>",
+              "<list>"
+            ],
+            "answer": "<li>"
+          },
+          {
+            "question": "What happens when you include a <script> tag without a closing tag in HTML?",
+            "options": [
+              "The browser will display an error message.",
+              "The script will run as expected.",
+              "The browser will ignore the script.",
+              "The browser will automatically close the script tag."
+            ],
+            "answer": "The browser will display an error message."
+          },
+          {
+            "question": "Which HTML tag is used to define a hyperlink?",
+            "options": [
+              "<a>",
+              "<link>",
+              "<href>",
+              "<hyperlink>"
+            ],
+            "answer": "<a>"
+          },
+          {
+            "question": "What does the method attribute of a <form> tag specify?",
+            "options": [
+              "The type of HTTP request to send (GET or POST).",
+              "The name of the server-side script to process the form.",
+              "The type of form input (text, password, etc.).",
+              "The action to take after the form submission."
+            ],
+            "answer": "The type of HTTP request to send (GET or POST)."
+          },
+          {
+            "question": "What does the action attribute in a <form> element specify?",
+            "options": [
+              "The method of data submission.",
+              "The location where the form data should be sent.",
+              "The style to apply to the form.",
+              "The type of form input."
+            ],
+            "answer": "The location where the form data should be sent."
+          },
+          {
+            "question": "How can you make a <div> element take up the full width of its container?",
+            "options": [
+              "Use width: 100% in CSS.",
+              "Set display: block;.",
+              "Set overflow: hidden;.",
+              "Use float: left;."
+            ],
+            "answer": "Use width: 100% in CSS."
+          },
+          {
+            "question": "What does the alt attribute provide for an <img> tag in HTML?",
+            "options": [
+              "It specifies the height of the image.",
+              "It provides a description for users who cannot see the image.",
+              "It provides the link to the image.",
+              "It specifies the width of the image."
+            ],
+            "answer": "It provides a description for users who cannot see the image."
+          },
+          {
+            "question": "What is the correct way to add a comment in HTML?",
+            "options": [
+              "// This is a comment",
+              "/* This is a comment */",
+              "<!-- This is a comment -->",
+              "# This is a comment"
+            ],
+            "answer": "<!-- This is a comment -->"
+          },
+          {
+            "question": "Which of the following defines an HTML5 element used to group content?",
+            "options": [
+              "<group>",
+              "<section>",
+              "<grouping>",
+              "<box>"
+            ],
+            "answer": "<section>"
+          },
+          {
+            "question": "What is the default behavior of the <a> tag when clicked in HTML?",
+            "options": [
+              "It reloads the page.",
+              "It opens the linked document.",
+              "It performs a JavaScript function.",
+              "It submits a form."
+            ],
+            "answer": "It opens the linked document."
+          },
+          {
+            "question": "What does the target=\"_self\" attribute do in an anchor tag?",
+            "options": [
+              "Opens the link in a new window or tab.",
+              "Does nothing.",
+              "Opens the link in the same frame or window.",
+              "Displays the link in a popup."
+            ],
+            "answer": "Opens the link in the same frame or window."
+          },
+          {
+            "question": "What is the <footer> tag used for in HTML5?",
+            "options": [
+              "Defines navigation links.",
+              "Defines metadata about the document.",
+              "Contains information about the document, usually at the bottom.",
+              "Defines header content."
+            ],
+            "answer": "Contains information about the document, usually at the bottom."
+          },
+          {
+            "question": "What happens when you use the readonly attribute in an HTML form input?",
+            "options": [
+              "The input becomes invisible.",
+              "The user cannot modify the input value.",
+              "The input cannot be submitted with the form.",
+              "The input is hidden from the form submission."
+            ],
+            "answer": "The user cannot modify the input value."
+          },
+          {
+            "question": "What is the default display property of a <span> element in HTML?",
+            "options": [
+              "block",
+              "inline",
+              "inline-block",
+              "none"
+            ],
+            "answer": "inline"
+          },
+          {
+            "question": "Which attribute specifies a default value for an <input> element in HTML?",
+            "options": [
+              "value",
+              "default",
+              "placeholder",
+              "initial"
+            ],
+            "answer": "value"
+          },
+          {
+            "question": "What does the colspan attribute do in an HTML table?",
+            "options": [
+              "Specifies the number of columns an element should span.",
+              "Specifies the number of rows an element should span.",
+              "Specifies the color of the cell.",
+              "Specifies the width of the table column."
+            ],
+            "answer": "Specifies the number of columns an element should span."
+          },
+          {
+            "question": "How do you add a comment inside the <style> block in HTML?",
+            "options": [
+              "<!-- Comment -->",
+              "/* Comment */",
+              "// Comment",
+              "/*--> Comment -->*/"
+            ],
+            "answer": "/* Comment */"
+          },
+          {
+            "question": "What is the correct way to include an external CSS file in an HTML document?",
+            "options": [
+              "<link rel=\"stylesheet\" src=\"style.css\">",
+              "<style href=\"style.css\">",
+              "<link href=\"style.css\" rel=\"stylesheet\">",
+              "<style src=\"style.css\">"
+            ],
+            "answer": "<link href=\"style.css\" rel=\"stylesheet\">"
+          },
+          {
+            "question": "Which HTML tag is used to define the footer of a document or section?",
+            "options": [
+              "<footer>",
+              "<bottom>",
+              "<end>",
+              "<section-footer>"
+            ],
+            "answer": "<footer>"
+          }
+        ]
+      }
+      
+  ]
+}  
+
